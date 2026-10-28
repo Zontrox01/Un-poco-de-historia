@@ -1,50 +1,31 @@
 <!doctype html>
 <html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Un poco de historia</title>
-<style>
-:root{--bg:#faf8f4;--fg:#1d1d1b;--mut:#6b6a65;--line:#dcd8cf;--acc:#9a4d00;--card:#fff}
-@media (prefers-color-scheme:dark){:root{--bg:#161614;--fg:#ecebe6;--mut:#a09f98;--line:#33322e;--acc:#f0a33b;--card:#1e1e1b}}
-*{box-sizing:border-box}html{scroll-padding-top:4.5rem}
-body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 Georgia,"Times New Roman",serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
-header,main{max-width:50rem;margin:0 auto;padding:0 1rem}
-header{padding-top:2rem}h1{margin:0;font-size:2rem}
-.sub{color:var(--mut);margin:.2rem 0 1rem}
-.bar{position:sticky;top:0;background:var(--bg);padding:.6rem 0;border-bottom:1px solid var(--line);z-index:5;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center}
-button,input{font:inherit;font-size:.9rem;padding:.35rem .7rem;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:.3rem}
-button[aria-pressed=true]{border-color:var(--acc);color:var(--acc)}
-input{flex:1;min-width:9rem}
-.chips{display:flex;flex-wrap:wrap;gap:.3rem;margin:1rem 0}
-.chips a{font:.8rem ui-monospace,Consolas,monospace;color:var(--acc);text-decoration:none;border:1px solid var(--line);padding:.1rem .4rem;border-radius:.25rem}
-article{background:var(--card);border:1px solid var(--line);border-radius:.4rem;padding:1rem 1.2rem;margin:1rem 0;overflow-wrap:anywhere}
-h2{margin:0 0 .4rem;font:700 1.5rem ui-monospace,Consolas,monospace;color:var(--acc)}
-h3{margin:.8rem 0 .1rem;font:600 .75rem ui-monospace,Consolas,monospace;text-transform:uppercase;letter-spacing:.06em;color:var(--mut)}
-p{margin:.2rem 0}a{color:var(--acc)}.ok{font-size:.75rem;color:var(--mut)}
-[hidden]{display:none!important}footer{max-width:50rem;margin:2rem auto;padding:0 1rem;color:var(--mut);font-size:.85rem}
-</style></head><body>
-<header><h1>Un poco de historia</h1>
-<p class="sub">Mi trayectoria con la informática, entre la historia de la máquina y la mía.</p></header>
-<main>
-<div class="bar" id="bar"></div>
-<div id="vista"></div>
-</main>
-<footer>Fechas históricas marcadas «a verificar» están pendientes de comprobar. Los trabajos para la empresa solo se nombran, sin documentos.</footer>
+<title>Un poco de historia</title><link rel="stylesheet" href="estilo.css"></head><body>
+<header class="cab">
+<a class="logo" href="index.html" title="Inicio">UPH</a><!-- logo: sustituye UPH por <img src="logo.png" alt="Un poco de historia"> -->
+<div class="tit"><h1>Un poco de historia</h1><p>Mi trayectoria con la informática, entre la historia de la máquina y la mía.</p></div>
+<input id="q" type="search" placeholder="Buscar…"></header>
+<nav class="menu" id="menu"></nav>
+<div class="cuerpo" id="cuerpo"><main id="vista"></main>
+<aside class="lat" id="lat"><h3>Años</h3><div class="anios" id="anios"></div></aside></div>
+<footer>Las fechas históricas marcadas «a verificar» están pendientes de comprobar. Los trabajos para la empresa solo se nombran, sin documentos.</footer>
 <script>
 const SECC=[["linea","Línea temporal"],["hilos","Hilos"],["obras","Obras"],["programas","Programas"]];
 const CAMPOS=[["historia","Historia"],["vida","Mi vida"],["informatica","Hitos, proyectos y eventos"],["so","Sistema operativo"],["programas","Programas"],["enlaces","Archivo y enlaces"]];
 let D,actual="linea";
 function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
-function texto(s){const f=document.createDocumentFragment();s.split("\n").forEach(l=>{const p=el("p");l.split(/(https?:\/\/[^\s|]+)/).forEach(x=>{if(/^https?:/.test(x)){const a=el("a",0,x.replace(/^https?:\/\/(www\.)?/,"").slice(0,60));a.href=x;a.target="_blank";a.rel="noopener";p.append(a)}else p.append(x)});f.append(p)});return f}
-function linea(){const v=el("div");const ch=el("div","chips");D.anios.forEach(a=>{const l=el("a",0,a.anio);l.href="#a"+a.anio;ch.append(l)});v.append(ch);
-D.anios.forEach(a=>{const r=el("article");r.id="a"+a.anio;r.append(el("h2",0,a.anio));
+function texto(s){const f=document.createDocumentFragment();s.split("\n").forEach(l=>{const p=el("p");l.split(/((?:https?:\/\/|galeria\.html\?)[^\s|]+)/).forEach(x=>{if(/^(https?:|galeria\.html)/.test(x)){const web=/^http/.test(x),a=el("a",0,web?x.replace(/^https?:\/\/(www\.)?/,"").slice(0,60):"Ver galería");a.href=x;if(web){a.target="_blank";a.rel="noopener"}p.append(a)}else p.append(x)});f.append(p)});return f}
+function linea(){const v=document.createDocumentFragment();D.anios.forEach(a=>{const r=el("article");r.id="a"+a.anio;r.append(el("h2",0,a.anio));
 CAMPOS.forEach(([k,n])=>{if(a[k]){r.append(el("h3",0,n));r.append(texto(a[k]));if(k=="historia"&&a.fuente)r.append(el("span","ok","fuente verificada"))}});v.append(r)});return v}
-function hilos(){const v=el("div");D.hilos.forEach(h=>{const r=el("article");r.append(el("h2",0,h.hilo));r.append(texto(h.texto));if(h.anios)r.append(el("h3",0,"Años: "+h.anios));v.append(r)});return v}
-function obras(){const v=el("div");D.obras.forEach(o=>{const r=el("article");r.append(el("h2",0,o.obra));r.append(el("p",0,[o.tipo,o.fecha,o.plataforma].filter(Boolean).join(" · ")));if(o.enlace.startsWith("http")){const a=el("a",0,"Ver");a.href=o.enlace;a.target="_blank";a.rel="noopener";r.append(a)}v.append(r)});return v}
-function programas(){const v=el("div");D.programas.forEach(g=>{const r=el("article");r.append(el("h2",0,g.programa));r.append(el("p",0,[g.fabricante,g.uso].filter(Boolean).join(" · ")));if(g.versiones)r.append(el("p",0,"Versiones: "+g.versiones));if(g.anios)r.append(el("p",0,"Años de uso: "+g.anios));v.append(r)});return v}
-function pintar(){const V=document.getElementById("vista");V.replaceChildren({linea,hilos,obras,programas}[actual]());filtrar()}
+function hilos(){const v=document.createDocumentFragment();D.hilos.forEach(h=>{const r=el("article");r.append(el("h2",0,h.hilo));r.append(texto(h.texto));if(h.anios)r.append(el("h3",0,"Años: "+h.anios));v.append(r)});return v}
+function obras(){const v=document.createDocumentFragment();D.obras.forEach(o=>{const r=el("article");r.append(el("h2",0,o.obra));r.append(el("p",0,[o.tipo,o.fecha,o.plataforma].filter(Boolean).join(" · ")));if(o.enlace.startsWith("http")){const a=el("a",0,"Ver");a.href=o.enlace;a.target="_blank";a.rel="noopener";r.append(a)}v.append(r)});return v}
+function programas(){const v=document.createDocumentFragment();D.programas.forEach(g=>{const r=el("article");r.append(el("h2",0,g.programa));r.append(el("p",0,[g.fabricante,g.uso].filter(Boolean).join(" · ")));if(g.versiones)r.append(el("p",0,"Versiones: "+g.versiones));if(g.anios)r.append(el("p",0,"Años de uso: "+g.anios));v.append(r)});return v}
+function pintar(){document.getElementById("vista").replaceChildren({linea,hilos,obras,programas}[actual]());
+document.getElementById("lat").hidden=actual!="linea";document.getElementById("cuerpo").classList.toggle("solo",actual!="linea");filtrar()}
 function filtrar(){const q=document.getElementById("q").value.toLowerCase();document.querySelectorAll("#vista article").forEach(a=>a.hidden=q&&!a.textContent.toLowerCase().includes(q))}
-const bar=document.getElementById("bar");
-SECC.forEach(([k,n])=>{const b=el("button",0,n);b.setAttribute("aria-pressed",k==actual);b.onclick=()=>{actual=k;bar.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x===b));pintar()};bar.append(b)});
-const q=el("input");q.id="q";q.type="search";q.placeholder="Buscar…";q.oninput=filtrar;bar.append(q);
-fetch("datos.json").then(r=>r.json()).then(d=>{D=d;pintar()}).catch(()=>{document.getElementById("vista").textContent="No se pudo cargar datos.json."});
+const menu=document.getElementById("menu");
+SECC.forEach(([k,n])=>{const b=el("button",0,n);b.setAttribute("aria-pressed",k==actual);b.onclick=()=>{actual=k;menu.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x===b));pintar()};menu.append(b)});
+document.getElementById("q").oninput=filtrar;
+fetch("datos.json").then(r=>r.json()).then(d=>{D=d;D.anios.forEach(a=>{const l=el("a",0,a.anio);l.href="#a"+a.anio;document.getElementById("anios").append(l)});pintar()}).catch(()=>{document.getElementById("vista").textContent="No se pudo cargar datos.json."});
 </script></body></html>
