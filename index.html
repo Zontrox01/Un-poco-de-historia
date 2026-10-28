@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Un poco de historia</title>
+  <style>
+    /* ====== Base ====== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth; /* desplazamiento suave a las anclas */
+    }
+
+    body {
+      background-color: #f4f4f4;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #2b2b2b;
+    }
+
+    /* ====== CABECERA ESTILO ARCHITECT ====== */
+    .header {
+      background-color: #1a1a1a;
+      background-image: linear-gradient(120deg, #161616 0%, #2b2b2b 50%, #3a3a3a 100%);
+      color: #fff;
+      padding: 3rem 2rem 3.5rem 2rem;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .header-text h1 {
+      font-size: 2.8rem;
+      font-weight: 300;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+      color: #ffffff;
+    }
+
+    .header-text h2 {
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: #cccccc;
+      margin-bottom: 1.2rem;
+    }
+
+    .btn-github {
+      display: inline-block;
+      background: #4078c0;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 0.6rem 1.2rem;
+      border-radius: 4px;
+      transition: background 0.2s ease, transform 0.1s ease;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .btn-github:hover {
+      background: #2f5f9e;
+      transform: translateY(-1px);
+    }
+
+    .btn-github:active {
+      transform: translateY(1px);
+    }
+
+    /* ====== LAYOUT PRINCIPAL (contenido + sidebar) ====== */
+    .layout {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 280px; /* contenido | barra lateral */
+      gap: 2.5rem;
+      background: #ffffff;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      border-radius: 0 0 12px 12px;
+      align-items: start;
+    }
+
+    /* ====== CONTENIDO PRINCIPAL ====== */
+    .main-content {
+      min-width: 0; /* evita desbordes en grid */
+    }
+
+    .intro-text {
+      margin-bottom: 1.5rem;
+      font-weight: 300;
+      color: #4a4a4a;
+      font-size: 1.05rem;
+    }
+
+    .decade-section {
+      margin-bottom: 3rem;
+      scroll-margin-top: 1.5rem; /* margen al saltar por ancla */
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: #1a1a1a;
+      margin-bottom: 1rem;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 70px;
+      height: 4px;
+      background: #4078c0;
+      border-radius: 2px;
+    }
+
+    .decade-section p {
+      margin-bottom: 1rem;
+      color: #3a3a3a;
+    }
+
+    /* Eventos */
+    .event-item {
+      margin-bottom: 2rem;
+      padding: 1.2rem 1.4rem;
+      background: #fafafa;
+      border-left: 4px solid #4078c0;
+      border-radius: 0 8px 8px 0;
+      scroll-margin-top: 1.5rem;
+    }
+
+    .event-item h3 {
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: #1e1e1e;
+      margin-bottom: 0.5rem;
+    }
+
+    .event-item p {
+      margin-bottom: 0.8rem;
+      color: #4a4a4a;
+    }
+
+    /* Enlace a galería de fotos del evento */
+    .btn-gallery {
+      display: inline-block;
+      background: #4078c0;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.45rem 1rem;
+      border-radius: 4px;
+      transition: background 0.2s ease;
+    }
+
+    .btn-gallery:hover {
+      background: #2f5f9e;
+    }
+
+    /* ====== BARRA LATERAL DERECHA ====== */
+    .sidebar {
+      position: sticky;
+      top: 2rem; /* se queda fija al hacer scroll */
+    }
+
+    .sidebar-box {
+      background: #fafafa;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 1.2rem 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .sidebar-box h3 {
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: #1a1a1a;
+      margin-bottom: 0.9rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #4078c0;
+    }
+
+    .sidebar-box ul {
+      list-style: none;
+    }
+
+    .sidebar-box li {
+      margin-bottom: 0.45rem;
+    }
+
+    .sidebar-box a {
+      display: block;
+      color: #4078c0;
+      text-decoration: none;
+      font-size: 0.92rem;
+      padding: 0.25rem 0.4rem;
+      border-radius: 4px;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+
+    .sidebar-box a:hover {
+      background: #e8eef7;
+      color: #1a4b7a;
+    }
+
+    /* Enlace "volver arriba" */
+    .back-to-top {
+      display: block;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #4078c0;
+      text-decoration: none;
+      margin-top: 0.5rem;
+    }
+
+    .back-to-top:hover {
+      text-decoration: underline;
+    }
+
+    /* Pie de página */
+    .footer-note {
+      max-width: 1200px;
+      margin: 0 auto;
+      font-size: 0.85rem;
+      color: #999;
+      text-align: center;
+      padding: 1.5rem 1rem 2rem 1rem;
+    }
+
+    /* ====== Responsive ====== */
+    @media (max-width: 850px) {
+      .layout {
+        grid-template-columns: 1fr; /* sidebar debajo del contenido */
+        padding: 2rem 1.2rem;
+      }
+      .sidebar {
+        position: static;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+      .sidebar-box {
+        margin-bottom: 0;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .header {
+        padding: 2rem 1.2rem 2.5rem 1.2rem;
+      }
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .header-text h1 {
+        font-size: 2rem;
+      }
+      .header-text h2 {
+        font-size: 1.1rem;
+      }
+      .sidebar {
+        grid-template-columns: 1fr; /* una columna en móvil */
+      }
+      .section-title {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ====== CABECERA ESTILO ARCHITECT ====== -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-text">
+        <h1>Un poco de historia</h1>
+        <h2>Informática, proyectos y vida</h2>
+      </div>
+      <div>
+        <a class="btn-github" href="https://github.com/Zontrox01/Un-poco-de-historia/">
+          View project on GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ====== LAYOUT: CONTENIDO + SIDEBAR DERECHA ====== -->
+  <div class="layout">
+
+    <!-- ---------- CONTENIDO PRINCIPAL ---------- -->
+    <main class="main-content">
+
+      <p class="intro-text">
+        Un recorrido por mi historia en relación con la informática y mis proyectos de vida.
+        Navega por las décadas o salta directamente a los eventos más relevantes. Cada evento
+        tiene su propia galería de fotos.
+      </p>
+
+      <!-- ===== DÉCADAS (anclas) ===== -->
+      <section id="decada-1960" class="decade-section">
+        <h2 class="section-title">Los años 60</h2>
+        <p>Aquí irá el texto introductorio de la década de 1960. Puedes contar el contexto histórico
+           o los primeros recuerdos relacionados con esta etapa.</p>
+      </section>
+
+      <section id="decada-1970" class="decade-section">
+        <h2 class="section-title">Los años 70</h2>
+        <p>Texto de la década de 1970. Añade aquí tus vivencias, hitos o anécdotas de esos años.</p>
+      </section>
+
+      <section id="decada-1980" class="decade-section">
+        <h2 class="section-title">Los años 80</h2>
+        <p>Texto de la década de 1980. La llegada de los primeros ordenadores personales, consolas, etc.</p>
+      </section>
+
+      <section id="decada-1990" class="decade-section">
+        <h2 class="section-title">Los años 90</h2>
+        <p>Texto de la década de 1990. Internet, los primeros pasos en programación, la revolución digital.</p>
+      </section>
+
+      <section id="decada-2000" class="decade-section">
+        <h2 class="section-title">Los años 2000</h2>
+        <p>Texto de la década de 2000. La era de la banda ancha, los foros, los blogs y los primeros proyectos.</p>
+      </section>
+
+      <section id="decada-2010" class="decade-section">
+        <h2 class="section-title">Los años 2010</h2>
+        <p>Texto de la década de 2010. Dispositivos móviles, redes sociales, desarrollo web moderno.</p>
+      </section>
+
+      <section id="decada-2020" class="decade-section">
+        <h2 class="section-title">La década actual</h2>
+        <p>Texto de la década de 2020 hasta la actualidad. Proyectos recientes, inteligencia artificial, etc.</p>
+      </section>
+
+      <!-- ===== EVENTOS RELEVANTES (anclas + enlaces a galerías) ===== -->
+      <h2 class="section-title" style="margin-top: 3rem;">Eventos relevantes</h2>
+
+      <div id="evento-1" class="event-item">
+        <h3>Evento 1</h3>
+        <p>Descripción breve del Evento 1. Puedes ampliar la información y enlazar a la galería de fotos
+           correspondiente.</p>
+        <a class="btn-gallery" href="galeria-evento-1.html">Ver fotos del Evento 1 →</a>
+      </div>
+
+      <div id="evento-2" class="event-item">
+        <h3>Evento 2</h3>
+        <p>Descripción breve del Evento 2. Aquí irá el texto que quieras destacar.</p>
+        <a class="btn-gallery" href="galeria-evento-2.html">Ver fotos del Evento 2 →</a>
+      </div>
+
+      <div id="evento-3" class="event-item">
+        <h3>Evento 3</h3>
+        <p>Descripción breve del Evento 3.</p>
+        <a class="btn-gallery" href="galeria-evento-3.html">Ver fotos del Evento 3 →</a>
+      </div>
+
+      <div id="evento-4" class="event-item">
+        <h3>Evento 4</h3>
+        <p>Descripción breve del Evento 4.</p>
+        <a class="btn-gallery" href="galeria-evento-4.html">Ver fotos del Evento 4 →</a>
+      </div>
+
+      <div id="evento-5" class="event-item">
+        <h3>Evento 5</h3>
+        <p>Descripción breve del Evento 5.</p>
+        <a class="btn-gallery" href="galeria-evento-5.html">Ver fotos del Evento 5 →</a>
+      </div>
+
+    </main>
+
+    <!-- ---------- BARRA LATERAL DERECHA ---------- -->
+    <aside class="sidebar">
+
+      <!-- Menú de décadas -->
+      <div class="sidebar-box">
+        <h3>Décadas</h3>
+        <ul>
+          <li><a href="#decada-1960">Años 60</a></li>
+          <li><a href="#decada-1970">Años 70</a></li>
+          <li><a href="#decada-1980">Años 80</a></li>
+          <li><a href="#decada-1990">Años 90</a></li>
+          <li><a href="#decada-2000">Años 2000</a></li>
+          <li><a href="#decada-2010">Años 2010</a></li>
+          <li><a href="#decada-2020">Década actual</a></li>
+        </ul>
+      </div>
+
+      <!-- Menú de eventos -->
+      <div class="sidebar-box">
+        <h3>Eventos relevantes</h3>
+        <ul>
+          <li><a href="#evento-1">Evento 1</a></li>
+          <li><a href="#evento-2">Evento 2</a></li>
+          <li><a href="#evento-3">Evento 3</a></li>
+          <li><a href="#evento-4">Evento 4</a></li>
+          <li><a href="#evento-5">Evento 5</a></li>
+        </ul>
+      </div>
+
+      <!-- Galerías: enlaces directos a las páginas de fotos -->
+      <div class="sidebar-box">
+        <h3>Galerías de fotos</h3>
+        <ul>
+          <li><a href="galeria-evento-1.html">Fotos · Evento 1</a></li>
+          <li><a href="galeria-evento-2.html">Fotos · Evento 2</a></li>
+          <li><a href="galeria-evento-3.html">Fotos · Evento 3</a></li>
+          <li><a href="galeria-evento-4.html">Fotos · Evento 4</a></li>
+          <li><a href="galeria-evento-5.html">Fotos · Evento 5</a></li>
+        </ul>
+      </div>
+
+      <a href="#" class="back-to-top">↑ Volver arriba</a>
+
+    </aside>
+
+  </div>
+
+  <!-- ====== PIE DE PÁGINA ====== -->
+  <div class="footer-note">
+    © 2026 · Un poco de historia · Luis Miguel Ramos Bersabé
+  </div>
+
+</body>
+</html>
