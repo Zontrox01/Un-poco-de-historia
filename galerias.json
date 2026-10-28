@@ -1,0 +1,5 @@
+{"ejemplo":{"titulo":"Galería de ejemplo","descripcion":"Sustituye estas imágenes por las tuyas. Cada galería es una entrada de este archivo y se enlaza con galeria.html?g=ejemplo",
+"items":[
+{"titulo":"Foto 1","detalle":"Descripción breve","tipo":"Fotografía","fecha":"2002","miniatura":"https://placehold.co/400x300/e9ecef/6c757d?text=Miniatura+1","imagen":"https://placehold.co/1600x1000/444/fff?text=Imagen+completa+1"},
+{"titulo":"Foto 2","detalle":"Descripción breve","tipo":"Documento","fecha":"1995","miniatura":"https://placehold.co/300x400/e9ecef/6c757d?text=Miniatura+2","imagen":"https://placehold.co/1000x1400/444/fff?text=Imagen+completa+2"},
+{"titulo":"Foto 3","detalle":"Descripción breve","tipo":"Fotografía","fecha":"2020","miniatura":"https://placehold.co/400x300/e9ecef/6c757d?text=Miniatura+3","imagen":"https://placehold.co/1600x1000/444/fff?text=Imagen+completa+3"}]}}
