@@ -12,7 +12,7 @@
 <footer>Las fechas históricas marcadas «a verificar» están pendientes de comprobar. Los trabajos para la empresa solo se nombran, sin documentos.</footer>
 <script>
 const SECC=[["linea","Línea temporal"],["hilos","Hilos"],["obras","Obras"],["programas","Programas"]];
-const CAMPOS=[["historia","Historia"],["vida","Mi vida"],["informatica","Hitos, proyectos y eventos"],["so","Sistema operativo"],["programas","Programas"],["enlaces","Archivo y enlaces"]];
+const CAMPOS=[["historia","Historia"],["personal","Mi vida personal"],["laboral","Mi vida laboral"],["formacion","Mi formación"],["informatica","Hitos, proyectos y eventos"],["so","Sistema operativo"],["programas","Programas más relevantes"],["enlaces","Archivo y enlaces"]];
 let D,actual="linea";
 function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
 function texto(s){const f=document.createDocumentFragment();s.split("\n").forEach(l=>{const p=el("p");l.split(/((?:https?:\/\/|galeria\.html\?)[^\s|]+)/).forEach(x=>{if(/^(https?:|galeria\.html)/.test(x)){const web=/^http/.test(x),a=el("a",0,web?x.replace(/^https?:\/\/(www\.)?/,"").slice(0,60):"Ver galería");a.href=x;if(web){a.target="_blank";a.rel="noopener"}p.append(a)}else p.append(x)});f.append(p)});return f}
