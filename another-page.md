@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Welcome to another page
+## Un poco de historia
 
 _yay_
 
