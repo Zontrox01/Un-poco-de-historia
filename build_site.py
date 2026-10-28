@@ -1,8 +1,17 @@
 """Genera datos.json (solo campos públicos) a partir del Excel.
-Uso: python build_site.py Un_poco_de_historia_11.xlsx
+Uso: python build_site.py [archivo.xlsx]
+Sin argumento usa el .xlsx modificado más recientemente (en esta carpeta o en la de arriba).
 Las columnas se localizan por el principio del encabezado, así que pequeños cambios de nombre no lo rompen."""
 import sys, json, openpyxl
-SRC = sys.argv[1] if len(sys.argv) > 1 else "Un_poco_de_historia_11.xlsx"
+from pathlib import Path
+def elegir():
+    if len(sys.argv) > 1: return sys.argv[1]
+    aqui = Path(__file__).resolve().parent
+    cand = [p for d in (aqui, aqui.parent) for p in d.glob("*.xlsx") if not p.name.startswith("~$")]
+    if not cand: sys.exit("No encuentro ningún .xlsx. Indica el archivo: python build_site.py archivo.xlsx")
+    return str(max(cand, key=lambda p: p.stat().st_mtime))
+SRC = elegir()
+print("Usando:", SRC)
 # Solo nombre de pila para terceros (decisión del autor)
 NOMBRES = {"Josep Enric Rizo Solanes": "Josep Enric", "Xavier Altès": "Xavier",
            "Javier de la Fuente Martínez": "Javier"}
@@ -21,7 +30,8 @@ def campo(f, *pref):
     return ""
 cab1 = [str(c.value or "").strip().lower() for c in wb["Hoja1"][1]]
 for p in ("año", "historia", "mi vida personal", "mi vida laboral", "mi formación", "hitos", "s.o.", "programas", "enlace", "estado"):
-    if not any(c.startswith(p) for c in cab1): print("Aviso: no encuentro una columna que empiece por", repr(p))
+    if not any(c.startswith(p) for c in cab1):
+        print("Aviso: no encuentro una columna que empiece por", repr(p), "\n  Encabezados de Hoja1 en este archivo:", cab1)
 anios = []
 for f in filas("Hoja1"):
     a = campo(f, "año")
