@@ -2,6 +2,7 @@
 <html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Un poco de historia</title><link rel="stylesheet" href="estilo.css"></head><body>
+<div class="contenedor">
 <header class="cab">
 <a class="logo" href="index.html" title="Inicio">UPH</a><!-- logo: sustituye UPH por <img src="logo.png" alt="Un poco de historia"> -->
 <div class="tit"><h1>Un poco de historia</h1><p>Mi trayectoria con la informática, entre la historia de la máquina y la mía.</p></div>
@@ -28,4 +29,4 @@ const menu=document.getElementById("menu");
 SECC.forEach(([k,n])=>{const b=el("button",0,n);b.setAttribute("aria-pressed",k==actual);b.onclick=()=>{actual=k;menu.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x===b));pintar()};menu.append(b)});
 document.getElementById("q").oninput=filtrar;
 fetch("datos.json").then(r=>r.json()).then(d=>{D=d;D.anios.forEach(a=>{const l=el("a",0,a.anio);l.href="#a"+a.anio;document.getElementById("anios").append(l)});pintar()}).catch(()=>{document.getElementById("vista").textContent="No se pudo cargar datos.json."});
-</script></body></html>
+</script></div></body></html>
