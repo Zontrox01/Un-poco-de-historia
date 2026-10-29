@@ -133,18 +133,6 @@
    "fuente": false
   },
   {
-   "anio": 1978,
-   "historia": "",
-   "personal": "https://zontrox01.github.io/Un-poco-de-historia/",
-   "laboral": "",
-   "formacion": "",
-   "informatica": "",
-   "so": "",
-   "programas": "",
-   "enlaces": "",
-   "fuente": false
-  },
-  {
    "anio": 1979,
    "historia": "HP lanza la HP-41C, calculadora programable alfanumérica con módulos enchufables.",
    "personal": "",
@@ -378,7 +366,7 @@
    "personal": "",
    "laboral": "Operador de planta. \nHasta 04/1998 Bayer Hispania Industrial S.A.\nDesde 04/1998 Bayer Hispania S.A. (MDI/CO).",
    "formacion": "",
-   "informatica": "Fui uno de los primeros en registrarme en Línea abierta de La Caixa.\nProtector de carpetas (may. 1998, Visual Basic 5.0). Publicado en PC Actual nº 99 (jul./ago. 1998), CD nº 25, pág. 321.\nProgramación en C++ de comunicación con puertos serie: inicio de mi andadura con la robótica.",
+   "informatica": "Fui uno de los primeros en registrarme en Línea abierta de La Caixa.\nProtector de carpetas (may. 1998, Visual Basic 5.0). Publicado en [PC Actual nº 99](https://github.com/Zontrox01/MisProgramasRetro) (jul./ago. 1998), CD nº 25, pág. 321.\nProgramación en C++ de comunicación con puertos serie: inicio de mi andadura con la robótica.",
    "so": "Windows 98",
    "programas": "CorelDRAW 8 (abr. 1998)",
    "enlaces": "https://github.com/Zontrox01/MisProgramasRetro",

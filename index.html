@@ -16,7 +16,11 @@ const SECC=[["linea","Línea temporal"],["hilos","Hilos"],["obras","Obras"],["pr
 const CAMPOS=[["historia","Historia"],["personal","Mi vida personal"],["laboral","Mi vida laboral"],["formacion","Mi formación"],["informatica","Hitos, proyectos y eventos"],["so","Sistema operativo"],["programas","Programas más relevantes"],["enlaces","Archivo y enlaces"]];
 let D,actual="linea";
 function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
-function texto(s){const f=document.createDocumentFragment();s.split("\n").forEach(l=>{const p=el("p");l.split(/((?:https?:\/\/|galeria\.html\?)[^\s|]+)/).forEach(x=>{if(/^(https?:|galeria\.html)/.test(x)){const web=/^http/.test(x),a=el("a",0,web?x.replace(/^https?:\/\/(www\.)?/,"").slice(0,60):"Ver galería");a.href=x;if(web){a.target="_blank";a.rel="noopener"}p.append(a)}else p.append(x)});f.append(p)});return f}
+function texto(s){const f=document.createDocumentFragment();s.split("\n").forEach(l=>{const p=el("p");l.split(/(\[[^\]]+\]\([^)\s]+\)|(?:https?:\/\/|galeria\.html\?)[^\s|]+)/).forEach(x=>{
+const m=x.match(/^\[([^\]]+)\]\(([^)\s]+)\)$/),u=m?m[2]:x;
+if(m||/^(https?:|galeria\.html)/.test(x)){const web=/^https?:\/\//.test(u),ok=web||/^galeria\.html\?/.test(u)||/^#a\d+$/.test(u);
+if(!ok){p.append(m?m[1]:x);return}
+const a=el("a",0,m?m[1]:(web?x.replace(/^https?:\/\/(www\.)?/,"").slice(0,60):"Ver galería"));a.href=u;if(web){a.target="_blank";a.rel="noopener"}p.append(a)}else p.append(x)});f.append(p)});return f}
 function linea(){const v=document.createDocumentFragment();D.anios.forEach(a=>{const r=el("article");r.id="a"+a.anio;r.append(el("h2",0,a.anio));
 CAMPOS.forEach(([k,n])=>{if(a[k]){r.append(el("h3",0,n));r.append(texto(a[k]));if(k=="historia"&&a.fuente)r.append(el("span","ok","fuente verificada"))}});v.append(r)});return v}
 function hilos(){const v=document.createDocumentFragment();D.hilos.forEach(h=>{const r=el("article");r.append(el("h2",0,h.hilo));r.append(texto(h.texto));if(h.anios)r.append(el("h3",0,"Años: "+h.anios));v.append(r)});return v}

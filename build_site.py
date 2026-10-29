@@ -2,7 +2,7 @@
 Uso: python build_site.py [archivo.xlsx]
 Sin argumento usa el .xlsx modificado más recientemente (en esta carpeta o en la de arriba).
 Las columnas se localizan por el principio del encabezado, así que pequeños cambios de nombre no lo rompen."""
-import sys, json, openpyxl
+import sys, json, re, openpyxl
 from pathlib import Path
 def elegir():
     if len(sys.argv) > 1: return sys.argv[1]
@@ -15,11 +15,22 @@ print("Usando:", SRC)
 # Solo nombre de pila para terceros (decisión del autor)
 NOMBRES = {"Josep Enric Rizo Solanes": "Josep Enric", "Xavier Altès": "Xavier",
            "Javier de la Fuente Martínez": "Javier"}
+wb = openpyxl.load_workbook(SRC)
+# Hoja "Enlaces": alias -> destino. En el texto se escribe [texto](alias)
+ALIAS, USADOS, FALTAN = {}, set(), set()
+if "Enlaces" in wb.sheetnames:
+    for r in wb["Enlaces"].iter_rows(min_row=2, values_only=True):
+        if r[0] and r[1]: ALIAS[str(r[0]).strip().lower()] = str(r[1]).strip().replace(" ", "%20")
+def enlace(m):
+    txt, dest = m.group(1), m.group(2).strip()
+    k = dest.lower()
+    if k in ALIAS: USADOS.add(k); return f"[{txt}]({ALIAS[k]})"
+    if re.match(r"(https?://|galeria\.html\?|#a\d+$)", dest): return m.group(0)
+    FALTAN.add(dest); return txt
 def t(v):
     s = "" if v is None else str(v).strip()
     for a, b in NOMBRES.items(): s = s.replace(a, b)
-    return s
-wb = openpyxl.load_workbook(SRC)
+    return re.sub(r"\[([^\]]+)\]\(([^)\n]+)\)", enlace, s)
 def filas(hoja):
     ws = wb[hoja]; cab = [str(c.value or "").strip() for c in ws[1]]
     for r in ws.iter_rows(min_row=2, values_only=True):
@@ -49,4 +60,7 @@ datos = {"anios": anios,
                 "versiones": campo(f, "versiones que usé"), "anios": campo(f, "años de uso")}
                for f in filas("Programas") if campo(f, "programa") and not campo(f, "programa").startswith("(")]}
 json.dump(datos, open("datos.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+if FALTAN: print("Aviso: alias que no existen en la hoja Enlaces (se deja solo el texto):", sorted(FALTAN))
+sin = sorted(set(ALIAS) - USADOS)
+print("Enlaces:", len(USADOS), "usados" + ("; sin usar todavía: " + ", ".join(sin) if sin else ""))
 print(len(anios), "años;", len(datos["hilos"]), "hilos;", len(datos["obras"]), "obras;", len(datos["programas"]), "programas")
