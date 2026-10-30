@@ -1,5 +1,428 @@
-{"ejemplo":{"titulo":"Galería de ejemplo","descripcion":"Sustituye estas imágenes por las tuyas. Cada galería es una entrada de este archivo y se enlaza con galeria.html?g=ejemplo",
-"items":[
-{"titulo":"Foto 1","detalle":"Descripción breve","tipo":"Fotografía","fecha":"2002","miniatura":"https://placehold.co/400x300/e9ecef/6c757d?text=Miniatura+1","imagen":"https://placehold.co/1600x1000/444/fff?text=Imagen+completa+1"},
-{"titulo":"Foto 2","detalle":"Descripción breve","tipo":"Documento","fecha":"1995","miniatura":"https://placehold.co/300x400/e9ecef/6c757d?text=Miniatura+2","imagen":"https://placehold.co/1000x1400/444/fff?text=Imagen+completa+2"},
-{"titulo":"Foto 3","detalle":"Descripción breve","tipo":"Fotografía","fecha":"2020","miniatura":"https://placehold.co/400x300/e9ecef/6c757d?text=Miniatura+3","imagen":"https://placehold.co/1600x1000/444/fff?text=Imagen+completa+3"}]}}
+{
+ "ciberdromo": {
+  "titulo": "Ciberdromo",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Carteles",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo01.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo01-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo01.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Entrada",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo02.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo02-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo02.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Escaparate",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo03.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo03-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo03.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Sala",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo04.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo04-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo04.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Ordenadores",
+    "tipo": "Fotografía",
+    "fecha": "2026",
+    "origen": "Ciberdromo04a.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo04a-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo04a.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Estantería",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo05.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo05-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo05.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo06.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo06-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo06.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Posando",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo07.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo07-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo07.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Primera llamada",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo08.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo08-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo08.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo09.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo09-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo09.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo10.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo10-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo10.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo11.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo11-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo11.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo12.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo12-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo12.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo13.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo13-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo13.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo14.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo14-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo14.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo15.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo15-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo15.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Rubén",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo16.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo16-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo16.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo17.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo17-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo17.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo18.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo18-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo18.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo19.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo19-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo19.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo20.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo20-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo20.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo21.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo21-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo21.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo22.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo22-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo22.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo23.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo23-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo23.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo24.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo24-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo24.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo25.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo25-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo25.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo26.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo26-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo26.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo27.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo27-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo27.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo28.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo28-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo28.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo29.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo29-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo29.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo30.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo30-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo30.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo31.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo31-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo31.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Cartel exterior",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "origen": "Ciberdromo32.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo32-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo32.jpg"
+   }
+  ]
+ },
+ "drasnet": {
+  "titulo": "Drasnet",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Folleto publicitario",
+    "detalle": "Publicidad",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet01.jpg",
+    "miniatura": "img/drasnet/drasnet01-m.jpg",
+    "imagen": "img/drasnet/drasnet01.jpg"
+   },
+   {
+    "titulo": "Tríptico publicitario, anverso",
+    "detalle": "Publicidad",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet02.jpg",
+    "miniatura": "img/drasnet/drasnet02-m.jpg",
+    "imagen": "img/drasnet/drasnet02.jpg"
+   },
+   {
+    "titulo": "Tríptico publicitario, reverso",
+    "detalle": "Publicidad",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet03.jpg",
+    "miniatura": "img/drasnet/drasnet03-m.jpg",
+    "imagen": "img/drasnet/drasnet03.jpg"
+   },
+   {
+    "titulo": "Tarjeta de visita general",
+    "detalle": "Tarjeta de visita",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet04.jpg",
+    "miniatura": "img/drasnet/drasnet04-m.jpg",
+    "imagen": "img/drasnet/drasnet04.jpg"
+   },
+   {
+    "titulo": "Tarjeta de visita de departamento",
+    "detalle": "Tarjeta de visita",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet05.jpg",
+    "miniatura": "img/drasnet/drasnet05-m.jpg",
+    "imagen": "img/drasnet/drasnet05.jpg"
+   },
+   {
+    "titulo": "Publicidad en \"El Tricicle\"",
+    "detalle": "Publicidad",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet06.jpg",
+    "miniatura": "img/drasnet/drasnet06-m.jpg",
+    "imagen": "img/drasnet/drasnet06.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Oferta de equipos y servicios",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet07.jpg",
+    "miniatura": "img/drasnet/drasnet07-m.jpg",
+    "imagen": "img/drasnet/drasnet07.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Oferta de servicios para internet",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet08.jpg",
+    "miniatura": "img/drasnet/drasnet08-m.jpg",
+    "imagen": "img/drasnet/drasnet08.jpg"
+   },
+   {
+    "titulo": "Página web de la empres",
+    "detalle": "Página en tinet. Navegador Netscape",
+    "tipo": "Captura",
+    "fecha": "1996",
+    "origen": "Drasnet09.jpg",
+    "miniatura": "img/drasnet/drasnet09-m.jpg",
+    "imagen": "img/drasnet/drasnet09.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Publicitando la empresa en Internet",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet10.jpg",
+    "miniatura": "img/drasnet/drasnet10-m.jpg",
+    "imagen": "img/drasnet/drasnet10.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Publicitando a nuestros clientes con sus núevas páginas",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet11.jpg",
+    "miniatura": "img/drasnet/drasnet11-m.jpg",
+    "imagen": "img/drasnet/drasnet11.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Publicitando a nuestros clientes con sus núevas páginas",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet12.jpg",
+    "miniatura": "img/drasnet/drasnet12-m.jpg",
+    "imagen": "img/drasnet/drasnet12.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Primer Ciberlocal. El primero en la provincia y uno de los primeros en España.",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "origen": "Drasnet13.jpg",
+    "miniatura": "img/drasnet/drasnet13-m.jpg",
+    "imagen": "img/drasnet/drasnet13.jpg"
+   }
+  ]
+ }
+}
