@@ -558,7 +558,7 @@
     "imagen": "img/hardware/handy-scanner-hs-3000-plus.jpg"
    },
    {
-    "titulo": "HP41CV",
+    "titulo": "Calculadora HP41-C",
     "detalle": "Imagen descargada de internet",
     "tipo": "Imagen",
     "fecha": "AÑOs",
@@ -626,6 +626,402 @@
     "origen": "Handy Scanner HS 3000 PLUS_2.jpg",
     "miniatura": "img/hardware/handy-scanner-hs-3000-plus-2-m.jpg",
     "imagen": "img/hardware/handy-scanner-hs-3000-plus-2.jpg"
+   }
+  ]
+ },
+ "dublin": {
+  "titulo": "Dublin",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(01).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-01-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-01.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(02).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-02-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-02.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(08).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-08-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-08.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(10).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-10-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-10.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(11).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-11-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-11.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(12).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-12-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-12.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(13).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-13-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-13.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(15).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-15-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-15.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(18).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-18-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-18.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(20).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-20-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-20.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(27).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-27-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-27.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(31).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-31-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-31.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(34).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-34-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-34.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(36).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-36-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-36.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(37).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-37-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-37.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(38).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-38-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-38.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(40).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-40-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-40.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(42).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-42-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-42.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(44).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-44-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-44.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(45).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-45-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-45.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(52).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-52-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-52.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(53).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-53-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-53.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(55).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-55-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-55.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(57).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-57-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-57.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(58).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-58-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-58.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(61).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-61-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-61.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(65).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-65-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-65.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(68).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-68-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-68.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(71).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-71-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-71.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(72).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-72-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-72.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(73).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-73-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-73.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(74).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-74-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-74.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(75).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-75-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-75.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(78).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-78-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-78.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(80).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-80-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-80.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(86).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-86-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-86.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(87).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-87-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-87.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(88).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-88-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-88.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(90).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-90-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-90.jpg"
    }
   ]
  }

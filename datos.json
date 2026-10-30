@@ -399,7 +399,7 @@
   {
    "anio": 1998,
    "historia": "Windows 98.",
-   "personal": "Vacaciones en Cerler con curso de Esquí",
+   "personal": "Vacaciones en Cerler con curso de Esquí\nAudios de 100 aniversario de Lorca",
    "laboral": "Operador de planta. \nHasta 04/1998 Bayer Hispania Industrial S.A.\nDesde 04/1998 Bayer Hispania S.A. (MDI/CO).",
    "formacion": "",
    "informatica": "Fui uno de los primeros en registrarme en Línea abierta de La Caixa.\nProtector de carpetas (may. 1998, Visual Basic 5.0). Publicado en [PC Actual nº 99](https://github.com/Zontrox01/MisProgramasRetro) (jul./ago. 1998), CD nº 25, pág. 321.\nProgramación en C++ de comunicación con puertos serie: inicio de mi andadura con la robótica.",
@@ -507,7 +507,7 @@
   {
    "anio": 2007,
    "historia": "Windows Vista (disponibilidad general en enero).",
-   "personal": "",
+   "personal": "Viaje a [Dublin](galeria.html?g=Dublin)",
    "laboral": "Operador de planta, Bayer Material Science S.L. (MDI/CO).",
    "formacion": "Curso de acceso a la universidad por la UNED.",
    "informatica": "",
@@ -959,6 +959,27 @@
    "uso": "Proyecto final de carrera.",
    "versiones": "",
    "anios": "2017"
+  },
+  {
+   "programa": "Polymath",
+   "fabricante": "",
+   "uso": "",
+   "versiones": "",
+   "anios": "2017"
+  },
+  {
+   "programa": "MDSolids",
+   "fabricante": "",
+   "uso": "",
+   "versiones": "",
+   "anios": "2018"
+  },
+  {
+   "programa": "Scilab",
+   "fabricante": "",
+   "uso": "",
+   "versiones": "",
+   "anios": ""
   }
  ]
 }
