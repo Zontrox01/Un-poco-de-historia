@@ -35,3 +35,9 @@ footer{padding:0 1.5rem 2rem;color:var(--mut);font-size:.85rem}
 .lb img{max-width:100vw;max-height:100vh;object-fit:contain}
 .lb button{position:absolute;top:.8rem;right:1rem;background:#222;color:#fff;border-color:#555}
 @media (max-width:760px){.cuerpo{grid-template-columns:minmax(0,1fr)}.lat{position:static;max-height:none}.cab{flex-wrap:wrap}.cab input{width:100%}}
+
+.fotos{display:flex;flex-wrap:wrap;gap:1rem;margin:.6rem 0}
+.fotos .obra{width:11rem}
+.obra .img a{position:relative}
+.obra.video .img a::after{content:"▶";position:absolute;inset:0;display:grid;place-items:center;font-size:2.2rem;color:#fff;text-shadow:0 0 8px #000;pointer-events:none}
+.lb video{width:100%;height:100%;object-fit:contain;background:#000}

@@ -11,12 +11,15 @@
 <div class="cuerpo" id="cuerpo"><main id="vista"></main>
 <aside class="lat" id="lat"><h3>Años</h3><div class="anios" id="anios"></div></aside></div>
 <footer>Las fechas históricas marcadas «a verificar» están pendientes de comprobar. Los trabajos para la empresa solo se nombran, sin documentos.</footer>
+<script src="visor.js"></script>
 <script>
 const SECC=[["linea","Línea temporal"],["hilos","Hilos"],["obras","Obras"],["programas","Programas"]];
 const CAMPOS=[["historia","Historia"],["personal","Mi vida personal"],["laboral","Mi vida laboral"],["formacion","Mi formación"],["informatica","Hitos, proyectos y eventos"],["so","Sistema operativo"],["programas","Programas más relevantes"],["enlaces","Archivo y enlaces"]];
-let D,actual="linea";
+let D,GAL={},actual="linea";
+const slug=s=>s.normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+function fotos(refs){const d=el("div","fotos");refs.split(",").forEach(r=>{const [gal,...x]=r.trim().split("/"),a=x.join("/").toLowerCase(),g=GAL[slug(gal)],i=g?g.items.findIndex(o=>(o.origen||"").toLowerCase()==a||(o.origen||"").toLowerCase().replace(/\.[^.]+$/,"")==a):-1;d.append(i>=0?Visor.tarjeta(g.items[i],g.items,i):el("span","ok","[foto no encontrada: "+r.trim()+"]"))});return d}
 function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
-function texto(s){const f=document.createDocumentFragment();s.split("\n").forEach(l=>{const p=el("p");l.split(/(\[[^\]]+\]\([^)\s]+\)|(?:https?:\/\/|galeria\.html\?)[^\s|]+)/).forEach(x=>{
+function texto(s){const f=document.createDocumentFragment();s.split("\n").forEach(l=>{const mf=l.trim().match(/^\{foto:\s*(.+?)\s*\}$/i);if(mf){f.append(fotos(mf[1]));return}const p=el("p");l.split(/(\[[^\]]+\]\([^)\s]+\)|(?:https?:\/\/|galeria\.html\?)[^\s|]+)/).forEach(x=>{
 const m=x.match(/^\[([^\]]+)\]\(([^)\s]+)\)$/),u=m?m[2]:x;
 if(m||/^(https?:|galeria\.html)/.test(x)){const web=/^https?:\/\//.test(u),ok=web||/^galeria\.html\?/.test(u)||/^#a\d+$/.test(u);
 if(!ok){p.append(m?m[1]:x);return}
@@ -32,5 +35,5 @@ function filtrar(){const q=document.getElementById("q").value.toLowerCase();docu
 const menu=document.getElementById("menu");
 SECC.forEach(([k,n])=>{const b=el("button",0,n);b.setAttribute("aria-pressed",k==actual);b.onclick=()=>{actual=k;menu.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x===b));pintar()};menu.append(b)});
 document.getElementById("q").oninput=filtrar;
-fetch("datos.json").then(r=>r.json()).then(d=>{D=d;D.anios.forEach(a=>{const l=el("a",0,a.anio);l.href="#a"+a.anio;document.getElementById("anios").append(l)});pintar()}).catch(()=>{document.getElementById("vista").textContent="No se pudo cargar datos.json."});
+Promise.all([fetch("datos.json").then(r=>r.json()),fetch("galerias.json").then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([d,g])=>{D=d;GAL=g;D.anios.forEach(a=>{const l=el("a",0,a.anio);l.href="#a"+a.anio;document.getElementById("anios").append(l)});pintar()}).catch(()=>{document.getElementById("vista").textContent="No se pudo cargar datos.json."});
 </script></div></body></html>

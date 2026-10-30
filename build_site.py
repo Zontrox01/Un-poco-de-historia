@@ -15,6 +15,18 @@ print("Usando:", SRC)
 # Solo nombre de pila para terceros (decisión del autor)
 NOMBRES = {"Josep Enric Rizo Solanes": "Josep Enric", "Xavier Altès": "Xavier",
            "Javier de la Fuente Martínez": "Javier"}
+def slug(s):
+    import unicodedata
+    return re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().lower()).strip("-")
+_gp = Path(__file__).resolve().parent / "galerias.json"
+GALERIAS = json.loads(_gp.read_text(encoding="utf-8")) if _gp.exists() else {}
+FOTOS_FALTAN = []
+def revisar_fotos(texto, anio):
+    for m in re.finditer(r"\{foto:\s*(.+?)\s*\}", texto, re.I):
+        for ref in m.group(1).split(","):
+            gal, _, arch = ref.strip().partition("/"); g = GALERIAS.get(slug(gal)); arch = arch.lower()
+            if not (g and any(arch in (it.get("origen", "").lower(), re.sub(r"\.[^.]+$", "", it.get("origen", "").lower())) for it in g["items"])):
+                FOTOS_FALTAN.append(f"{ref.strip()} (año {anio})")
 wb = openpyxl.load_workbook(SRC)
 # Hoja "Enlaces": alias -> destino. En el texto se escribe [texto](alias)
 ALIAS, USADOS, FALTAN = {}, set(), set()
@@ -51,6 +63,7 @@ for f in filas("Hoja1"):
            "laboral": campo(f, "mi vida laboral"), "formacion": campo(f, "mi formación"),
            "informatica": campo(f, "hitos"), "so": campo(f, "s.o."), "programas": campo(f, "programas"),
            "enlaces": campo(f, "enlace"), "fuente": campo(f, "estado").startswith("Verificado")}
+    for k in ("historia", "personal", "laboral", "formacion", "informatica"): revisar_fotos(reg[k], reg["anio"])
     if any(reg[k] for k in ("historia", "personal", "laboral", "formacion", "informatica", "so", "programas", "enlaces")): anios.append(reg)
 datos = {"anios": anios,
  "hilos": [{"hilo": campo(f, "hilo"), "texto": campo(f, "en palabras"), "anios": campo(f, "años clave")} for f in filas("Hilos del relato") if campo(f, "hilo")],
@@ -60,6 +73,7 @@ datos = {"anios": anios,
                 "versiones": campo(f, "versiones que usé"), "anios": campo(f, "años de uso")}
                for f in filas("Programas") if campo(f, "programa") and not campo(f, "programa").startswith("(")]}
 json.dump(datos, open("datos.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+if FOTOS_FALTAN: print("Aviso: fotos o vídeos {foto: …} que no existen en galerias.json:", "; ".join(FOTOS_FALTAN))
 if FALTAN: print("Aviso: alias que no existen en la hoja Enlaces (se deja solo el texto):", sorted(FALTAN))
 sin = sorted(set(ALIAS) - USADOS)
 print("Enlaces:", len(USADOS), "usados" + ("; sin usar todavía: " + ", ".join(sin) if sin else ""))

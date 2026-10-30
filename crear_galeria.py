@@ -11,11 +11,12 @@ Dónde busca la carpeta de cada galería (la primera que exista, sin distinguir 
 Requiere:  pip install pillow openpyxl
 Los originales no se tocan. Las copias web no llevan metadatos (ni GPS).
 Prioridad de datos: Excel, luego lo que ya hubiera en galerias.json, luego las opciones de la línea de comandos."""
-import argparse, json, re, sys, unicodedata
+import argparse, json, re, shutil, sys, unicodedata
 from pathlib import Path
 from PIL import Image, ImageOps
 import openpyxl
 EXT = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tif", ".tiff"}
+VID = {".mp4"}
 BASE = Path(__file__).resolve().parent
 def anio_exif(im):
     try:
@@ -50,9 +51,21 @@ def buscar_carpeta(nombre, bases):
                 if d.is_dir() and d.name.lower() not in {"img", ".git"} and slug(d.name) == slug(nombre): return d
     return None
 
+def miniatura_video(p, mini, ancho):
+    """Miniatura = primer fotograma (necesita opencv-python). Si ya existe, no se toca: puedes cambiarla a mano."""
+    try:
+        import cv2
+        cap = cv2.VideoCapture(str(p)); ok, fr = cap.read(); cap.release()
+        if not ok: raise RuntimeError("no se pudo leer el primer fotograma")
+        im = Image.fromarray(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB))
+    except Exception as e:
+        print(f"  Aviso: miniatura genérica para {p.name} ({e}). Instala opencv-python para usar el primer fotograma.")
+        im = Image.new("RGB", (ancho, ancho * 3 // 4), (40, 40, 40))
+    im.thumbnail((ancho, ancho)); im.save(mini, "JPEG", quality=80, optimize=True)
+
 def crear(nombre, carpeta, cab, filas, a, datos):
-    fotos = sorted((p for p in carpeta.iterdir() if p.suffix.lower() in EXT), key=natural)
-    if not fotos: print(f"Aviso: no hay imágenes en {carpeta}"); return
+    fotos = sorted((p for p in carpeta.iterdir() if p.suffix.lower() in EXT | VID), key=natural)
+    if not fotos: print(f"Aviso: no hay imágenes ni vídeos en {carpeta}"); return
     clave = lambda p: {p.name.lower(), p.stem.lower()}
     listadas = [p for k in filas for p in fotos if k in clave(p)]
     fotos = list(dict.fromkeys(listadas + fotos))   # manda el orden de la hoja
@@ -65,28 +78,37 @@ def crear(nombre, carpeta, cab, filas, a, datos):
     for p in fotos:
         nom, n = slug(p.stem), 2
         while nom in usados: nom, n = f"{slug(p.stem)}-{n}", n + 1
-        usados.add(nom); full, mini = destino / f"{nom}.jpg", destino / f"{nom}-m.jpg"
-        validos |= {full.name, mini.name}
-        with Image.open(p) as im:
-            exif = anio_exif(im)
-            if a.forzar or not (full.exists() and mini.exists()):
-                im = ImageOps.exif_transpose(im).convert("RGB")
-                im.thumbnail((a.maximo, a.maximo)); im.save(full, "JPEG", quality=85, optimize=True)
-                im.thumbnail((a.miniatura, a.miniatura)); im.save(mini, "JPEG", quality=80, optimize=True)
+        usados.add(nom); video = p.suffix.lower() in VID
+        full, mini = destino / f"{nom}{'.mp4' if video else '.jpg'}", destino / f"{nom}-m.jpg"
+        validos |= {full.name, mini.name}; exif = ""
+        if video:
+            mb = p.stat().st_size / 1048576
+            if mb > 100: print(f"  Aviso: {p.name} pesa {mb:.0f} MB: GitHub no admite archivos de más de 100 MB. Reduce el vídeo antes de subirlo.")
+            elif mb > 50: print(f"  Aviso: {p.name} pesa {mb:.0f} MB: GitHub avisa a partir de 50 MB. Conviene reducirlo.")
+            if a.forzar or not full.exists() or full.stat().st_size != p.stat().st_size: shutil.copy2(p, full)
+            if a.forzar or not mini.exists(): miniatura_video(p, mini, a.miniatura)
+        else:
+            with Image.open(p) as im:
+                exif = anio_exif(im)
+                if a.forzar or not (full.exists() and mini.exists()):
+                    im = ImageOps.exif_transpose(im).convert("RGB")
+                    im.thumbnail((a.maximo, a.maximo)); im.save(full, "JPEG", quality=85, optimize=True)
+                    im.thumbnail((a.miniatura, a.miniatura)); im.save(mini, "JPEG", quality=80, optimize=True)
         prev = previos.get(p.name, {}); fila = filas.get(p.name.lower()) or filas.get(p.stem.lower()) or {}
         items.append({"titulo": fila.get("titulo") or prev.get("titulo") or re.sub(r"[_-]+", " ", p.stem).strip(),
                       "detalle": fila.get("detalle") or prev.get("detalle") or "",
-                      "tipo": fila.get("tipo") or prev.get("tipo") or a.tipo,
+                      "tipo": fila.get("tipo") or prev.get("tipo") or ("Vídeo" if video else a.tipo),
                       "fecha": fila.get("fecha") or prev.get("fecha") or a.fecha or exif,
-                      "origen": p.name, "miniatura": f"img/{nombre}/{mini.name}", "imagen": f"img/{nombre}/{full.name}"})
-    for viejo in destino.glob("*.jpg"):
-        if viejo.name not in validos: viejo.unlink()
+                      "medio": "video" if video else "imagen", "origen": p.name,
+                      "miniatura": f"img/{nombre}/{mini.name}", "imagen": f"img/{nombre}/{full.name}"})
+    for viejo in destino.iterdir():
+        if viejo.suffix.lower() in {".jpg", ".mp4"} and viejo.name not in validos: viejo.unlink()
     g["items"] = items
     sin_foto = [k for k in filas if not any(k in clave(p) for p in fotos)]
     if sin_foto: print("  Aviso: filas del Excel sin foto en la carpeta:", ", ".join(sin_foto))
     sin_fila = [p.name for p in fotos if not (clave(p) & set(filas))]
     if filas and sin_fila: print(f"  Aviso: {len(sin_fila)} foto(s) sin fila en el Excel (llevan el título del nombre del archivo): " + ", ".join(sin_fila[:5]) + ("…" if len(sin_fila) > 5 else ""))
-    print(f"  '{g['titulo']}': {len(items)} fotos  →  enlace: galeria.html?g={nombre}  (sube img/{nombre} y galerias.json)")
+    print(f"  '{g['titulo']}': {len(items)} elementos  →  enlace: galeria.html?g={nombre}  (sube img/{nombre} y galerias.json)")
 
 ap = argparse.ArgumentParser(description="Crea galerías a partir de la hoja Galerías del Excel.")
 ap.add_argument("carpeta", nargs="?"); ap.add_argument("nombre", nargs="?")

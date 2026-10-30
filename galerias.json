@@ -8,6 +8,7 @@
     "detalle": "Carteles",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo01.jpg",
     "miniatura": "img/ciberdromo/ciberdromo01-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo01.jpg"
@@ -17,6 +18,7 @@
     "detalle": "Entrada",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo02.jpg",
     "miniatura": "img/ciberdromo/ciberdromo02-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo02.jpg"
@@ -26,6 +28,7 @@
     "detalle": "Escaparate",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo03.jpg",
     "miniatura": "img/ciberdromo/ciberdromo03-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo03.jpg"
@@ -35,6 +38,7 @@
     "detalle": "Sala",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo04.jpg",
     "miniatura": "img/ciberdromo/ciberdromo04-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo04.jpg"
@@ -44,6 +48,7 @@
     "detalle": "Ordenadores",
     "tipo": "Fotografía",
     "fecha": "2026",
+    "medio": "imagen",
     "origen": "Ciberdromo04a.jpg",
     "miniatura": "img/ciberdromo/ciberdromo04a-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo04a.jpg"
@@ -53,6 +58,7 @@
     "detalle": "Estantería",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo05.jpg",
     "miniatura": "img/ciberdromo/ciberdromo05-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo05.jpg"
@@ -62,6 +68,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo06.jpg",
     "miniatura": "img/ciberdromo/ciberdromo06-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo06.jpg"
@@ -71,6 +78,7 @@
     "detalle": "Posando",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo07.jpg",
     "miniatura": "img/ciberdromo/ciberdromo07-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo07.jpg"
@@ -80,6 +88,7 @@
     "detalle": "Primera llamada",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo08.jpg",
     "miniatura": "img/ciberdromo/ciberdromo08-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo08.jpg"
@@ -89,6 +98,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo09.jpg",
     "miniatura": "img/ciberdromo/ciberdromo09-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo09.jpg"
@@ -98,6 +108,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo10.jpg",
     "miniatura": "img/ciberdromo/ciberdromo10-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo10.jpg"
@@ -107,6 +118,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo11.jpg",
     "miniatura": "img/ciberdromo/ciberdromo11-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo11.jpg"
@@ -116,6 +128,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo12.jpg",
     "miniatura": "img/ciberdromo/ciberdromo12-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo12.jpg"
@@ -125,6 +138,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo13.jpg",
     "miniatura": "img/ciberdromo/ciberdromo13-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo13.jpg"
@@ -134,6 +148,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo14.jpg",
     "miniatura": "img/ciberdromo/ciberdromo14-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo14.jpg"
@@ -143,6 +158,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo15.jpg",
     "miniatura": "img/ciberdromo/ciberdromo15-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo15.jpg"
@@ -152,6 +168,7 @@
     "detalle": "Rubén",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo16.jpg",
     "miniatura": "img/ciberdromo/ciberdromo16-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo16.jpg"
@@ -161,6 +178,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo17.jpg",
     "miniatura": "img/ciberdromo/ciberdromo17-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo17.jpg"
@@ -170,6 +188,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo18.jpg",
     "miniatura": "img/ciberdromo/ciberdromo18-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo18.jpg"
@@ -179,6 +198,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo19.jpg",
     "miniatura": "img/ciberdromo/ciberdromo19-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo19.jpg"
@@ -188,6 +208,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo20.jpg",
     "miniatura": "img/ciberdromo/ciberdromo20-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo20.jpg"
@@ -197,6 +218,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo21.jpg",
     "miniatura": "img/ciberdromo/ciberdromo21-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo21.jpg"
@@ -206,6 +228,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo22.jpg",
     "miniatura": "img/ciberdromo/ciberdromo22-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo22.jpg"
@@ -215,6 +238,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo23.jpg",
     "miniatura": "img/ciberdromo/ciberdromo23-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo23.jpg"
@@ -224,6 +248,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo24.jpg",
     "miniatura": "img/ciberdromo/ciberdromo24-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo24.jpg"
@@ -233,6 +258,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo25.jpg",
     "miniatura": "img/ciberdromo/ciberdromo25-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo25.jpg"
@@ -242,6 +268,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo26.jpg",
     "miniatura": "img/ciberdromo/ciberdromo26-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo26.jpg"
@@ -251,6 +278,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo27.jpg",
     "miniatura": "img/ciberdromo/ciberdromo27-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo27.jpg"
@@ -260,6 +288,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo28.jpg",
     "miniatura": "img/ciberdromo/ciberdromo28-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo28.jpg"
@@ -269,6 +298,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo29.jpg",
     "miniatura": "img/ciberdromo/ciberdromo29-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo29.jpg"
@@ -278,6 +308,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo30.jpg",
     "miniatura": "img/ciberdromo/ciberdromo30-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo30.jpg"
@@ -287,6 +318,7 @@
     "detalle": "Evento",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo31.jpg",
     "miniatura": "img/ciberdromo/ciberdromo31-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo31.jpg"
@@ -296,6 +328,7 @@
     "detalle": "Cartel exterior",
     "tipo": "Fotografía",
     "fecha": "2002",
+    "medio": "imagen",
     "origen": "Ciberdromo32.jpg",
     "miniatura": "img/ciberdromo/ciberdromo32-m.jpg",
     "imagen": "img/ciberdromo/ciberdromo32.jpg"
@@ -311,6 +344,7 @@
     "detalle": "Publicidad",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet01.jpg",
     "miniatura": "img/drasnet/drasnet01-m.jpg",
     "imagen": "img/drasnet/drasnet01.jpg"
@@ -320,6 +354,7 @@
     "detalle": "Publicidad",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet02.jpg",
     "miniatura": "img/drasnet/drasnet02-m.jpg",
     "imagen": "img/drasnet/drasnet02.jpg"
@@ -329,6 +364,7 @@
     "detalle": "Publicidad",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet03.jpg",
     "miniatura": "img/drasnet/drasnet03-m.jpg",
     "imagen": "img/drasnet/drasnet03.jpg"
@@ -338,6 +374,7 @@
     "detalle": "Tarjeta de visita",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet04.jpg",
     "miniatura": "img/drasnet/drasnet04-m.jpg",
     "imagen": "img/drasnet/drasnet04.jpg"
@@ -347,6 +384,7 @@
     "detalle": "Tarjeta de visita",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet05.jpg",
     "miniatura": "img/drasnet/drasnet05-m.jpg",
     "imagen": "img/drasnet/drasnet05.jpg"
@@ -356,6 +394,7 @@
     "detalle": "Publicidad",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet06.jpg",
     "miniatura": "img/drasnet/drasnet06-m.jpg",
     "imagen": "img/drasnet/drasnet06.jpg"
@@ -365,6 +404,7 @@
     "detalle": "Oferta de equipos y servicios",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet07.jpg",
     "miniatura": "img/drasnet/drasnet07-m.jpg",
     "imagen": "img/drasnet/drasnet07.jpg"
@@ -374,6 +414,7 @@
     "detalle": "Oferta de servicios para internet",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet08.jpg",
     "miniatura": "img/drasnet/drasnet08-m.jpg",
     "imagen": "img/drasnet/drasnet08.jpg"
@@ -383,6 +424,7 @@
     "detalle": "Página en tinet. Navegador Netscape",
     "tipo": "Captura",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet09.jpg",
     "miniatura": "img/drasnet/drasnet09-m.jpg",
     "imagen": "img/drasnet/drasnet09.jpg"
@@ -392,6 +434,7 @@
     "detalle": "Publicitando la empresa en Internet",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet10.jpg",
     "miniatura": "img/drasnet/drasnet10-m.jpg",
     "imagen": "img/drasnet/drasnet10.jpg"
@@ -401,6 +444,7 @@
     "detalle": "Publicitando a nuestros clientes con sus núevas páginas",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet11.jpg",
     "miniatura": "img/drasnet/drasnet11-m.jpg",
     "imagen": "img/drasnet/drasnet11.jpg"
@@ -410,6 +454,7 @@
     "detalle": "Publicitando a nuestros clientes con sus núevas páginas",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet12.jpg",
     "miniatura": "img/drasnet/drasnet12-m.jpg",
     "imagen": "img/drasnet/drasnet12.jpg"
@@ -419,9 +464,168 @@
     "detalle": "Primer Ciberlocal. El primero en la provincia y uno de los primeros en España.",
     "tipo": "Imagen",
     "fecha": "1996",
+    "medio": "imagen",
     "origen": "Drasnet13.jpg",
     "miniatura": "img/drasnet/drasnet13-m.jpg",
     "imagen": "img/drasnet/drasnet13.jpg"
+   }
+  ]
+ },
+ "accesi": {
+  "titulo": "ACCESI",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Documento del registro",
+    "detalle": "Registro de entrada a la solicitud de la DelegaciónTerritorial de Tarragona del Departamento de Justicia de la Generalitat de Catalunya.",
+    "tipo": "Imagen",
+    "fecha": "2001",
+    "medio": "imagen",
+    "origen": "Accesi02.jpg",
+    "miniatura": "img/accesi/accesi02-m.jpg",
+    "imagen": "img/accesi/accesi02.jpg"
+   },
+   {
+    "titulo": "Documento del registro",
+    "detalle": "Registro de entrada de la solicitud en la DelegaciónTerritorial de Tarragona del Departamento de Justicia de la Generalitat de Catalunya.",
+    "tipo": "Imagen",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Accesi01.jpg",
+    "miniatura": "img/accesi/accesi01-m.jpg",
+    "imagen": "img/accesi/accesi01.jpg"
+   }
+  ]
+ },
+ "el-tricicle": {
+  "titulo": "El Tricicle",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Propuesta de portada",
+    "detalle": "Dibujo con la propuesta para la portada del nº1 de la revista.",
+    "tipo": "Imagen",
+    "fecha": "1995",
+    "medio": "imagen",
+    "origen": "El_Tricicle00.jpg",
+    "miniatura": "img/el-tricicle/el-tricicle00-m.jpg",
+    "imagen": "img/el-tricicle/el-tricicle00.jpg"
+   },
+   {
+    "titulo": "Portada del Nº23",
+    "detalle": "Diseño de portada de la revista en su nº 23 del mes de noviembre.",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "El_Tricicle23.jpg",
+    "miniatura": "img/el-tricicle/el-tricicle23-m.jpg",
+    "imagen": "img/el-tricicle/el-tricicle23.jpg"
+   }
+  ]
+ },
+ "hardware": {
+  "titulo": "Hardware",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Amstrad PC1512",
+    "detalle": "Imagen descargada de internet",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Amstrad_pc1512sd.jpg",
+    "miniatura": "img/hardware/amstrad-pc1512sd-m.jpg",
+    "imagen": "img/hardware/amstrad-pc1512sd.jpg"
+   },
+   {
+    "titulo": "Commodore 64",
+    "detalle": "Imagen descargada de internet",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Commodore 64.jpg",
+    "miniatura": "img/hardware/commodore-64-m.jpg",
+    "imagen": "img/hardware/commodore-64.jpg"
+   },
+   {
+    "titulo": "Handy SCANNER HS 3000 PLUS",
+    "detalle": "Imagen escaneada de mi manual",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Handy Scanner HS 3000 PLUS.jpg",
+    "miniatura": "img/hardware/handy-scanner-hs-3000-plus-m.jpg",
+    "imagen": "img/hardware/handy-scanner-hs-3000-plus.jpg"
+   },
+   {
+    "titulo": "HP41CV",
+    "detalle": "Imagen descargada de internet",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "HP41CV.JPG",
+    "miniatura": "img/hardware/hp41cv-m.jpg",
+    "imagen": "img/hardware/hp41cv.jpg"
+   },
+   {
+    "titulo": "Sound Blaster Pro",
+    "detalle": "Imagen descargada de internet",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Sound Blaster Pro.jpg",
+    "miniatura": "img/hardware/sound-blaster-pro-m.jpg",
+    "imagen": "img/hardware/sound-blaster-pro.jpg"
+   },
+   {
+    "titulo": "Sound Blaster Pro",
+    "detalle": "Imagen escaneada de mi manual",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Sound Blaster Pro manual.jpg",
+    "miniatura": "img/hardware/sound-blaster-pro-manual-m.jpg",
+    "imagen": "img/hardware/sound-blaster-pro-manual.jpg"
+   },
+   {
+    "titulo": "Video Blaster CT6000",
+    "detalle": "Imagen descargada de internet",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Video Blaster CT6000.jpg",
+    "miniatura": "img/hardware/video-blaster-ct6000-m.jpg",
+    "imagen": "img/hardware/video-blaster-ct6000.jpg"
+   },
+   {
+    "titulo": "Video Blaster CT6000",
+    "detalle": "Imagen escaneada de mi manual",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Video Blaster CT6000_2.jpg",
+    "miniatura": "img/hardware/video-blaster-ct6000-2-m.jpg",
+    "imagen": "img/hardware/video-blaster-ct6000-2.jpg"
+   },
+   {
+    "titulo": "ZX Spectrum",
+    "detalle": "Imagen escaneada de mi manual",
+    "tipo": "Imagen",
+    "fecha": "1983",
+    "medio": "imagen",
+    "origen": "ZX spectrum.jpg",
+    "miniatura": "img/hardware/zx-spectrum-m.jpg",
+    "imagen": "img/hardware/zx-spectrum.jpg"
+   },
+   {
+    "titulo": "Handy Scanner HS 3000 PLUS 2",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "2026",
+    "medio": "imagen",
+    "origen": "Handy Scanner HS 3000 PLUS_2.jpg",
+    "miniatura": "img/hardware/handy-scanner-hs-3000-plus-2-m.jpg",
+    "imagen": "img/hardware/handy-scanner-hs-3000-plus-2.jpg"
    }
   ]
  }
