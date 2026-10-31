@@ -17,6 +17,8 @@ from PIL import Image, ImageOps
 import openpyxl
 EXT = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tif", ".tiff"}
 VID = {".mp4"}
+AUD = {".mp3"}
+DOC = {".pdf"}
 BASE = Path(__file__).resolve().parent
 def anio_exif(im):
     try:
@@ -63,8 +65,28 @@ def miniatura_video(p, mini, ancho):
         im = Image.new("RGB", (ancho, ancho * 3 // 4), (40, 40, 40))
     im.thumbnail((ancho, ancho)); im.save(mini, "JPEG", quality=80, optimize=True)
 
+def miniatura_generica(mini, ancho, texto=""):
+    im = Image.new("RGB", (ancho, ancho * 3 // 4), (40, 40, 40))
+    if texto:
+        from PIL import ImageDraw, ImageFont
+        d = ImageDraw.Draw(im)
+        try: f = ImageFont.load_default(size=48)
+        except TypeError: f = ImageFont.load_default()
+        d.text((ancho // 2, ancho * 3 // 8), texto, fill=(200, 200, 200), font=f, anchor="mm")
+    im.save(mini, "JPEG", quality=80, optimize=True)
+def miniatura_pdf(p, mini, ancho):
+    """Miniatura = primera página (necesita pymupdf). Si ya existe, no se toca."""
+    try:
+        import fitz
+        pag = fitz.open(str(p))[0]; pix = pag.get_pixmap(matrix=fitz.Matrix(ancho / pag.rect.width, ancho / pag.rect.width), alpha=False)
+        im = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+        im.thumbnail((ancho, ancho * 2)); im.save(mini, "JPEG", quality=80, optimize=True)
+    except Exception as e:
+        print(f"  Aviso: miniatura genérica para {p.name} ({e}). Instala pymupdf para usar la primera página.")
+        miniatura_generica(mini, ancho, "PDF")
+
 def crear(nombre, carpeta, cab, filas, a, datos):
-    fotos = sorted((p for p in carpeta.iterdir() if p.suffix.lower() in EXT | VID), key=natural)
+    fotos = sorted((p for p in carpeta.iterdir() if p.suffix.lower() in EXT | VID | AUD | DOC), key=natural)
     if not fotos: print(f"Aviso: no hay imágenes ni vídeos en {carpeta}"); return
     clave = lambda p: {p.name.lower(), p.stem.lower()}
     listadas = [p for k in filas for p in fotos if k in clave(p)]
@@ -78,15 +100,19 @@ def crear(nombre, carpeta, cab, filas, a, datos):
     for p in fotos:
         nom, n = slug(p.stem), 2
         while nom in usados: nom, n = f"{slug(p.stem)}-{n}", n + 1
-        usados.add(nom); video = p.suffix.lower() in VID
-        full, mini = destino / f"{nom}{'.mp4' if video else '.jpg'}", destino / f"{nom}-m.jpg"
+        usados.add(nom); suf = p.suffix.lower()
+        medio = "video" if suf in VID else "audio" if suf in AUD else "pdf" if suf in DOC else "imagen"
+        full, mini = destino / f"{nom}{suf if medio != 'imagen' else '.jpg'}", destino / f"{nom}-m.jpg"
         validos |= {full.name, mini.name}; exif = ""
-        if video:
+        if medio != "imagen":
             mb = p.stat().st_size / 1048576
             if mb > 100: print(f"  Aviso: {p.name} pesa {mb:.0f} MB: GitHub no admite archivos de más de 100 MB. Reduce el vídeo antes de subirlo.")
             elif mb > 50: print(f"  Aviso: {p.name} pesa {mb:.0f} MB: GitHub avisa a partir de 50 MB. Conviene reducirlo.")
             if a.forzar or not full.exists() or full.stat().st_size != p.stat().st_size: shutil.copy2(p, full)
-            if a.forzar or not mini.exists(): miniatura_video(p, mini, a.miniatura)
+            if a.forzar or not mini.exists():
+                if medio == "video": miniatura_video(p, mini, a.miniatura)
+                elif medio == "pdf": miniatura_pdf(p, mini, a.miniatura)
+                else: miniatura_generica(mini, a.miniatura)
         else:
             with Image.open(p) as im:
                 exif = anio_exif(im)
@@ -97,12 +123,12 @@ def crear(nombre, carpeta, cab, filas, a, datos):
         prev = previos.get(p.name, {}); fila = filas.get(p.name.lower()) or filas.get(p.stem.lower()) or {}
         items.append({"titulo": fila.get("titulo") or prev.get("titulo") or re.sub(r"[_-]+", " ", p.stem).strip(),
                       "detalle": fila.get("detalle") or prev.get("detalle") or "",
-                      "tipo": fila.get("tipo") or prev.get("tipo") or ("Vídeo" if video else a.tipo),
+                      "tipo": fila.get("tipo") or prev.get("tipo") or {"video": "Vídeo", "audio": "Audio", "pdf": "Documento"}.get(medio, a.tipo),
                       "fecha": fila.get("fecha") or prev.get("fecha") or a.fecha or exif,
-                      "medio": "video" if video else "imagen", "origen": p.name,
+                      "medio": medio, "origen": p.name,
                       "miniatura": f"img/{nombre}/{mini.name}", "imagen": f"img/{nombre}/{full.name}"})
     for viejo in destino.iterdir():
-        if viejo.suffix.lower() in {".jpg", ".mp4"} and viejo.name not in validos: viejo.unlink()
+        if viejo.suffix.lower() in {".jpg", ".mp4", ".mp3", ".pdf"} and viejo.name not in validos: viejo.unlink()
     g["items"] = items
     sin_foto = [k for k in filas if not any(k in clave(p) for p in fotos)]
     if sin_foto: print("  Aviso: filas del Excel sin foto en la carpeta:", ", ".join(sin_foto))
