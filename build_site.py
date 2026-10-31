@@ -3,6 +3,7 @@ Uso: python build_site.py [archivo.xlsx]
 Sin argumento usa el .xlsx modificado más recientemente (en esta carpeta o en la de arriba).
 Las columnas se localizan por el principio del encabezado, así que pequeños cambios de nombre no lo rompen."""
 import sys, json, re, openpyxl
+from urllib.parse import unquote
 from pathlib import Path
 def elegir():
     if len(sys.argv) > 1: return sys.argv[1]
@@ -18,6 +19,10 @@ NOMBRES = {"Josep Enric Rizo Solanes": "Josep Enric", "Xavier Altès": "Xavier",
 def slug(s):
     import unicodedata
     return re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().lower()).strip("-")
+def norm(u):
+    """galeria.html?g=Nombre -> galeria.html?g=nombre (como se guardan las galerías)"""
+    m = re.match(r"(galeria\.html\?g=)(.+)$", u)
+    return m.group(1) + slug(unquote(m.group(2))) if m else u
 _gp = Path(__file__).resolve().parent / "galerias.json"
 GALERIAS = json.loads(_gp.read_text(encoding="utf-8")) if _gp.exists() else {}
 FOTOS_FALTAN = []
@@ -32,12 +37,12 @@ wb = openpyxl.load_workbook(SRC)
 ALIAS, USADOS, FALTAN = {}, set(), set()
 if "Enlaces" in wb.sheetnames:
     for r in wb["Enlaces"].iter_rows(min_row=2, values_only=True):
-        if r[0] and r[1]: ALIAS[str(r[0]).strip().lower()] = str(r[1]).strip().replace(" ", "%20")
+        if r[0] and r[1]: ALIAS[str(r[0]).strip().lower()] = norm(str(r[1]).strip()).replace(" ", "%20")
 def enlace(m):
     txt, dest = m.group(1), m.group(2).strip()
     k = dest.lower()
     if k in ALIAS: USADOS.add(k); return f"[{txt}]({ALIAS[k]})"
-    if re.match(r"(https?://|galeria\.html\?|#a\d+$)", dest): return m.group(0)
+    if re.match(r"(https?://|galeria\.html\?|#a\d+$)", dest): return f"[{txt}]({norm(dest)})"
     FALTAN.add(dest); return txt
 def t(v):
     s = "" if v is None else str(v).strip()
