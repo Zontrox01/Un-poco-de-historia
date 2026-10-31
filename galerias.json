@@ -1,0 +1,1154 @@
+{
+ "ciberdromo": {
+  "titulo": "Ciberdromo",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Carteles",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo01.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo01-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo01.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Entrada",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo02.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo02-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo02.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Escaparate",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo03.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo03-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo03.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Sala",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo04.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo04-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo04.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Ordenadores",
+    "tipo": "Fotografía",
+    "fecha": "2026",
+    "medio": "imagen",
+    "origen": "Ciberdromo04a.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo04a-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo04a.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Estantería",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo05.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo05-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo05.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo06.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo06-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo06.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Posando",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo07.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo07-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo07.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Primera llamada",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo08.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo08-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo08.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo09.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo09-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo09.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo10.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo10-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo10.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo11.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo11-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo11.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo12.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo12-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo12.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo13.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo13-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo13.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo14.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo14-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo14.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo15.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo15-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo15.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Rubén",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo16.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo16-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo16.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo17.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo17-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo17.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo18.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo18-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo18.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo19.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo19-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo19.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo20.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo20-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo20.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo21.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo21-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo21.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo22.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo22-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo22.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo23.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo23-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo23.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo24.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo24-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo24.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo25.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo25-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo25.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo26.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo26-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo26.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo27.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo27-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo27.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo28.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo28-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo28.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo29.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo29-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo29.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo30.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo30-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo30.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Evento",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo31.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo31-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo31.jpg"
+   },
+   {
+    "titulo": "Inauguración del Ciber",
+    "detalle": "Cartel exterior",
+    "tipo": "Fotografía",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Ciberdromo32.jpg",
+    "miniatura": "img/ciberdromo/ciberdromo32-m.jpg",
+    "imagen": "img/ciberdromo/ciberdromo32.jpg"
+   }
+  ]
+ },
+ "drasnet": {
+  "titulo": "Drasnet",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Folleto publicitario",
+    "detalle": "Publicidad",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet01.jpg",
+    "miniatura": "img/drasnet/drasnet01-m.jpg",
+    "imagen": "img/drasnet/drasnet01.jpg"
+   },
+   {
+    "titulo": "Tríptico publicitario, anverso",
+    "detalle": "Publicidad",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet02.jpg",
+    "miniatura": "img/drasnet/drasnet02-m.jpg",
+    "imagen": "img/drasnet/drasnet02.jpg"
+   },
+   {
+    "titulo": "Tríptico publicitario, reverso",
+    "detalle": "Publicidad",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet03.jpg",
+    "miniatura": "img/drasnet/drasnet03-m.jpg",
+    "imagen": "img/drasnet/drasnet03.jpg"
+   },
+   {
+    "titulo": "Tarjeta de visita general",
+    "detalle": "Tarjeta de visita",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet04.jpg",
+    "miniatura": "img/drasnet/drasnet04-m.jpg",
+    "imagen": "img/drasnet/drasnet04.jpg"
+   },
+   {
+    "titulo": "Tarjeta de visita de departamento",
+    "detalle": "Tarjeta de visita",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet05.jpg",
+    "miniatura": "img/drasnet/drasnet05-m.jpg",
+    "imagen": "img/drasnet/drasnet05.jpg"
+   },
+   {
+    "titulo": "Publicidad en \"El Tricicle\"",
+    "detalle": "Publicidad",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet06.jpg",
+    "miniatura": "img/drasnet/drasnet06-m.jpg",
+    "imagen": "img/drasnet/drasnet06.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Oferta de equipos y servicios",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet07.jpg",
+    "miniatura": "img/drasnet/drasnet07-m.jpg",
+    "imagen": "img/drasnet/drasnet07.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Oferta de servicios para internet",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet08.jpg",
+    "miniatura": "img/drasnet/drasnet08-m.jpg",
+    "imagen": "img/drasnet/drasnet08.jpg"
+   },
+   {
+    "titulo": "Página web de la empres",
+    "detalle": "Página en tinet. Navegador Netscape",
+    "tipo": "Captura",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet09.jpg",
+    "miniatura": "img/drasnet/drasnet09-m.jpg",
+    "imagen": "img/drasnet/drasnet09.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Publicitando la empresa en Internet",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet10.jpg",
+    "miniatura": "img/drasnet/drasnet10-m.jpg",
+    "imagen": "img/drasnet/drasnet10.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Publicitando a nuestros clientes con sus núevas páginas",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet11.jpg",
+    "miniatura": "img/drasnet/drasnet11-m.jpg",
+    "imagen": "img/drasnet/drasnet11.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Publicitando a nuestros clientes con sus núevas páginas",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet12.jpg",
+    "miniatura": "img/drasnet/drasnet12-m.jpg",
+    "imagen": "img/drasnet/drasnet12.jpg"
+   },
+   {
+    "titulo": "Cartel publicitario",
+    "detalle": "Primer Ciberlocal. El primero en la provincia y uno de los primeros en España.",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "Drasnet13.jpg",
+    "miniatura": "img/drasnet/drasnet13-m.jpg",
+    "imagen": "img/drasnet/drasnet13.jpg"
+   }
+  ]
+ },
+ "accesi": {
+  "titulo": "ACCESI",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Documento del registro",
+    "detalle": "Registro de entrada a la solicitud de la DelegaciónTerritorial de Tarragona del Departamento de Justicia de la Generalitat de Catalunya.",
+    "tipo": "Imagen",
+    "fecha": "2001",
+    "medio": "imagen",
+    "origen": "Accesi02.jpg",
+    "miniatura": "img/accesi/accesi02-m.jpg",
+    "imagen": "img/accesi/accesi02.jpg"
+   },
+   {
+    "titulo": "Documento del registro",
+    "detalle": "Registro de entrada de la solicitud en la DelegaciónTerritorial de Tarragona del Departamento de Justicia de la Generalitat de Catalunya.",
+    "tipo": "Imagen",
+    "fecha": "2002",
+    "medio": "imagen",
+    "origen": "Accesi01.jpg",
+    "miniatura": "img/accesi/accesi01-m.jpg",
+    "imagen": "img/accesi/accesi01.jpg"
+   }
+  ]
+ },
+ "el-tricicle": {
+  "titulo": "El Tricicle",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Propuesta de portada",
+    "detalle": "Dibujo con la propuesta para la portada del nº1 de la revista.",
+    "tipo": "Imagen",
+    "fecha": "1995",
+    "medio": "imagen",
+    "origen": "El_Tricicle00.jpg",
+    "miniatura": "img/el-tricicle/el-tricicle00-m.jpg",
+    "imagen": "img/el-tricicle/el-tricicle00.jpg"
+   },
+   {
+    "titulo": "Portada del Nº23",
+    "detalle": "Diseño de portada de la revista en su nº 23 del mes de noviembre.",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "El_Tricicle23.jpg",
+    "miniatura": "img/el-tricicle/el-tricicle23-m.jpg",
+    "imagen": "img/el-tricicle/el-tricicle23.jpg"
+   }
+  ]
+ },
+ "hardware": {
+  "titulo": "Hardware",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Amstrad PC1512",
+    "detalle": "Imagen descargada de internet",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Amstrad_pc1512sd.jpg",
+    "miniatura": "img/hardware/amstrad-pc1512sd-m.jpg",
+    "imagen": "img/hardware/amstrad-pc1512sd.jpg"
+   },
+   {
+    "titulo": "Commodore 64",
+    "detalle": "Imagen descargada de internet",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Commodore 64.jpg",
+    "miniatura": "img/hardware/commodore-64-m.jpg",
+    "imagen": "img/hardware/commodore-64.jpg"
+   },
+   {
+    "titulo": "Handy SCANNER HS 3000 PLUS",
+    "detalle": "Imagen escaneada de mi manual",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Handy Scanner HS 3000 PLUS.jpg",
+    "miniatura": "img/hardware/handy-scanner-hs-3000-plus-m.jpg",
+    "imagen": "img/hardware/handy-scanner-hs-3000-plus.jpg"
+   },
+   {
+    "titulo": "Calculadora HP41-C",
+    "detalle": "Imagen descargada de internet",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "HP41CV.JPG",
+    "miniatura": "img/hardware/hp41cv-m.jpg",
+    "imagen": "img/hardware/hp41cv.jpg"
+   },
+   {
+    "titulo": "Sound Blaster Pro",
+    "detalle": "Imagen descargada de internet",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Sound Blaster Pro.jpg",
+    "miniatura": "img/hardware/sound-blaster-pro-m.jpg",
+    "imagen": "img/hardware/sound-blaster-pro.jpg"
+   },
+   {
+    "titulo": "Sound Blaster Pro",
+    "detalle": "Imagen escaneada de mi manual",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Sound Blaster Pro manual.jpg",
+    "miniatura": "img/hardware/sound-blaster-pro-manual-m.jpg",
+    "imagen": "img/hardware/sound-blaster-pro-manual.jpg"
+   },
+   {
+    "titulo": "Video Blaster CT6000",
+    "detalle": "Imagen descargada de internet",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Video Blaster CT6000.jpg",
+    "miniatura": "img/hardware/video-blaster-ct6000-m.jpg",
+    "imagen": "img/hardware/video-blaster-ct6000.jpg"
+   },
+   {
+    "titulo": "Video Blaster CT6000",
+    "detalle": "Imagen escaneada de mi manual",
+    "tipo": "Imagen",
+    "fecha": "AÑOs",
+    "medio": "imagen",
+    "origen": "Video Blaster CT6000_2.jpg",
+    "miniatura": "img/hardware/video-blaster-ct6000-2-m.jpg",
+    "imagen": "img/hardware/video-blaster-ct6000-2.jpg"
+   },
+   {
+    "titulo": "ZX Spectrum",
+    "detalle": "Imagen escaneada de mi manual",
+    "tipo": "Imagen",
+    "fecha": "1983",
+    "medio": "imagen",
+    "origen": "ZX spectrum.jpg",
+    "miniatura": "img/hardware/zx-spectrum-m.jpg",
+    "imagen": "img/hardware/zx-spectrum.jpg"
+   },
+   {
+    "titulo": "Handy Scanner HS 3000 PLUS 2",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "2026",
+    "medio": "imagen",
+    "origen": "Handy Scanner HS 3000 PLUS_2.jpg",
+    "miniatura": "img/hardware/handy-scanner-hs-3000-plus-2-m.jpg",
+    "imagen": "img/hardware/handy-scanner-hs-3000-plus-2.jpg"
+   }
+  ]
+ },
+ "dublin": {
+  "titulo": "Dublin",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(01).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-01-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-01.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(02).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-02-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-02.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(08).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-08-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-08.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(10).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-10-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-10.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(11).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-11-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-11.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(12).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-12-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-12.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(13).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-13-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-13.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(15).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-15-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-15.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(18).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-18-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-18.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(20).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-20-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-20.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(27).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-27-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-27.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(31).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-31-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-31.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(34).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-34-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-34.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(36).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-36-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-36.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(37).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-37-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-37.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(38).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-38-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-38.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(40).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-40-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-40.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(42).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-42-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-42.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(44).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-44-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-44.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(45).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-45-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-45.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(52).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-52-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-52.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(53).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-53-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-53.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(55).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-55-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-55.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(57).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-57-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-57.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(58).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-58-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-58.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(61).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-61-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-61.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(65).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-65-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-65.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(68).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-68-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-68.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(71).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-71-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-71.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(72).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-72-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-72.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(73).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-73-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-73.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(74).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-74-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-74.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(75).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-75-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-75.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(78).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-78-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-78.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(80).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-80-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-80.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(86).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-86-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-86.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(87).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-87-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-87.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(88).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-88-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-88.jpg"
+   },
+   {
+    "titulo": "Dublin",
+    "detalle": "Viaje a Dublín",
+    "tipo": "Fotografía",
+    "fecha": "2007",
+    "medio": "imagen",
+    "origen": "DublinMayo2007(90).jpg",
+    "miniatura": "img/dublin/dublinmayo2007-90-m.jpg",
+    "imagen": "img/dublin/dublinmayo2007-90.jpg"
+   }
+  ]
+ },
+ "triatlon": {
+  "titulo": "Triatlon",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Triatlón",
+    "detalle": "Cartel del evento",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon01.jpg",
+    "miniatura": "img/triatlon/triatlon01-m.jpg",
+    "imagen": "img/triatlon/triatlon01.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Dorsal",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon02.jpg",
+    "miniatura": "img/triatlon/triatlon02-m.jpg",
+    "imagen": "img/triatlon/triatlon02.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "En el agua, entrenando",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon03.jpg",
+    "miniatura": "img/triatlon/triatlon03-m.jpg",
+    "imagen": "img/triatlon/triatlon03.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Mis animadoras",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon04.jpg",
+    "miniatura": "img/triatlon/triatlon04-m.jpg",
+    "imagen": "img/triatlon/triatlon04.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "En la salida",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon05.jpg",
+    "miniatura": "img/triatlon/triatlon05-m.jpg",
+    "imagen": "img/triatlon/triatlon05.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Entrando al agua",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon06.jpg",
+    "miniatura": "img/triatlon/triatlon06-m.jpg",
+    "imagen": "img/triatlon/triatlon06.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Saliendo del agua",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon07.jpg",
+    "miniatura": "img/triatlon/triatlon07-m.jpg",
+    "imagen": "img/triatlon/triatlon07.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Salida en bici",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon08.jpg",
+    "miniatura": "img/triatlon/triatlon08-m.jpg",
+    "imagen": "img/triatlon/triatlon08.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "En ruta con la bici",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon09.jpg",
+    "miniatura": "img/triatlon/triatlon09-m.jpg",
+    "imagen": "img/triatlon/triatlon09.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Corriendo",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon10.jpg",
+    "miniatura": "img/triatlon/triatlon10-m.jpg",
+    "imagen": "img/triatlon/triatlon10.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "En meta",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon11.jpg",
+    "miniatura": "img/triatlon/triatlon11-m.jpg",
+    "imagen": "img/triatlon/triatlon11.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Con mi familia",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon12.jpg",
+    "miniatura": "img/triatlon/triatlon12-m.jpg",
+    "imagen": "img/triatlon/triatlon12.jpg"
+   }
+  ]
+ }
+}
