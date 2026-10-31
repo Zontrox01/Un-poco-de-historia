@@ -1024,5 +1024,131 @@
     "imagen": "img/dublin/dublinmayo2007-90.jpg"
    }
   ]
+ },
+ "triatlon": {
+  "titulo": "Triatlon",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Triatlón",
+    "detalle": "Cartel del evento",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon01.jpg",
+    "miniatura": "img/triatlon/triatlon01-m.jpg",
+    "imagen": "img/triatlon/triatlon01.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Dorsal",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon02.jpg",
+    "miniatura": "img/triatlon/triatlon02-m.jpg",
+    "imagen": "img/triatlon/triatlon02.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "En el agua, entrenando",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon03.jpg",
+    "miniatura": "img/triatlon/triatlon03-m.jpg",
+    "imagen": "img/triatlon/triatlon03.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Mis animadoras",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon04.jpg",
+    "miniatura": "img/triatlon/triatlon04-m.jpg",
+    "imagen": "img/triatlon/triatlon04.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "En la salida",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon05.jpg",
+    "miniatura": "img/triatlon/triatlon05-m.jpg",
+    "imagen": "img/triatlon/triatlon05.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Entrando al agua",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon06.jpg",
+    "miniatura": "img/triatlon/triatlon06-m.jpg",
+    "imagen": "img/triatlon/triatlon06.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Saliendo del agua",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon07.jpg",
+    "miniatura": "img/triatlon/triatlon07-m.jpg",
+    "imagen": "img/triatlon/triatlon07.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Salida en bici",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon08.jpg",
+    "miniatura": "img/triatlon/triatlon08-m.jpg",
+    "imagen": "img/triatlon/triatlon08.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "En ruta con la bici",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon09.jpg",
+    "miniatura": "img/triatlon/triatlon09-m.jpg",
+    "imagen": "img/triatlon/triatlon09.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Corriendo",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon10.jpg",
+    "miniatura": "img/triatlon/triatlon10-m.jpg",
+    "imagen": "img/triatlon/triatlon10.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "En meta",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon11.jpg",
+    "miniatura": "img/triatlon/triatlon11-m.jpg",
+    "imagen": "img/triatlon/triatlon11.jpg"
+   },
+   {
+    "titulo": "Triatlón",
+    "detalle": "Con mi familia",
+    "tipo": "Fotografía",
+    "fecha": "2021",
+    "medio": "imagen",
+    "origen": "Triatlon12.jpg",
+    "miniatura": "img/triatlon/triatlon12-m.jpg",
+    "imagen": "img/triatlon/triatlon12.jpg"
+   }
+  ]
  }
 }
