@@ -14,7 +14,7 @@
 <script src="visor.js"></script>
 <script>
 const SECC=[["linea","Línea temporal"],["hilos","Hilos"],["obras","Obras"],["programas","Programas"]];
-const CAMPOS=[["historia","Historia"],["personal","Mi vida personal"],["laboral","Mi vida laboral"],["formacion","Mi formación"],["informatica","Hitos, proyectos y eventos"],["so","Sistema operativo"],["programas","Programas más relevantes"],["enlaces","Archivo y enlaces"]];
+const CAMPOS=[["personal","Mi vida personal"],["laboral","Mi vida laboral"],["formacion","Mi formación"],["historia","Historia de la informática"],["informatica","Hitos, proyectos y eventos"],["so","Sistema operativo"],["programas","Programas más relevantes"],["enlaces","Archivo y enlaces"]];
 let D,GAL={},actual="linea";
 const slug=s=>s.normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 function fotos(refs){const d=el("div","fotos");refs.split(",").forEach(r=>{const [gal,...x]=r.trim().split("/"),a=x.join("/").toLowerCase(),g=GAL[slug(gal)],i=g?g.items.findIndex(o=>(o.origen||"").toLowerCase()==a||(o.origen||"").toLowerCase().replace(/\.[^.]+$/,"")==a):-1;d.append(i>=0?Visor.tarjeta(g.items[i],g.items,i):el("span","ok","[foto no encontrada: "+r.trim()+"]"))});return d}
