@@ -2,7 +2,7 @@
  "anios": [
   {
    "anio": 1965,
-   "historia": "",
+   "historia": "Gordon Moore publica la Ley de Moore, prediciendo la duplicación periódica de transistores en chips",
    "personal": "Nací el 16 de marzo en Écija (Sevilla) en la casilla de la estación. Me bautizarón un mes después en la Explicar que pasó en el mundo ese día precio de cosas básicas. Mirar documento",
    "laboral": "",
    "formacion": "",
@@ -14,7 +14,7 @@
   },
   {
    "anio": 1966,
-   "historia": "",
+   "historia": "Se aplican por primera vez conceptos de redes a lo que luego sería ARPANET .",
    "personal": "Cumplo 1 año.",
    "laboral": "",
    "formacion": "",
@@ -26,7 +26,7 @@
   },
   {
    "anio": 1967,
-   "historia": "",
+   "historia": "IBM inventa el disquete (disco flexible) .",
    "personal": "Cumplo 2 años. \nNace mi hermano Santi",
    "laboral": "",
    "formacion": "",
@@ -38,7 +38,7 @@
   },
   {
    "anio": 1968,
-   "historia": "",
+   "historia": "Robert Noyce y Gordon Moore fundan Intel; Douglas Engelbart realiza \"The Mother of All Demos\" (ratón, hipertexto, videoconferencia) .",
    "personal": "Cumplo 3 años.",
    "laboral": "",
    "formacion": "",
@@ -50,7 +50,7 @@
   },
   {
    "anio": 1969,
-   "historia": "",
+   "historia": "Nace ARPANET (precursor de Internet) y se crea el sistema UNICS en Bell Labs, que luego sería Unix .",
    "personal": "Cumplo 4 años.",
    "laboral": "",
    "formacion": "Aprendo a leer",
@@ -62,7 +62,7 @@
   },
   {
    "anio": 1970,
-   "historia": "",
+   "historia": "UNIX es renombrado formalmente; Edgar F. Codd publica el modelo relacional de bases de datos .",
    "personal": "Cumplo 5 años.",
    "laboral": "",
    "formacion": "",
@@ -74,7 +74,7 @@
   },
   {
    "anio": 1971,
-   "historia": "Intel presenta el microprocesador 4004.",
+   "historia": "Intel lanza el microprocesador 4004.",
    "personal": "Cumplo 6 años.",
    "laboral": "",
    "formacion": "Empiezo la EGB",
@@ -86,7 +86,7 @@
   },
   {
    "anio": 1972,
-   "historia": "HP lanza la HP-35, primera calculadora científica de bolsillo.",
+   "historia": "HP lanza la HP-35, primera calculadora científica de bolsillo. Se crea el lenguaje C; Ray Tomlinson introduce el uso de @ para el correo electrónico en red .",
    "personal": "Cumplo 7 años.",
    "laboral": "",
    "formacion": "",
@@ -98,7 +98,7 @@
   },
   {
    "anio": 1973,
-   "historia": "",
+   "historia": "Se desarrolla Ethernet en Xerox PARC . Xerox Alto introduce la informática personal con GUI.",
    "personal": "Cumplo 8 años.",
    "laboral": "",
    "formacion": "",
@@ -110,7 +110,7 @@
   },
   {
    "anio": 1974,
-   "historia": "",
+   "historia": "Vint Cerf y Bob Kahn diseñan TCP/IP, la base técnica de Internet . Se publica el diseño del Intel 8080.",
    "personal": "Cumplo 9 años. \nNace mi hermana Begoña (mecanografía???)",
    "laboral": "",
    "formacion": "",
@@ -122,7 +122,7 @@
   },
   {
    "anio": 1975,
-   "historia": "",
+   "historia": "Aparece el Altair 8800. Se funda Microsoft.",
    "personal": "Cumplo 10 años. \nAprendo a nadar en la campaña \"Ningún niño sin saber nadar\".",
    "laboral": "",
    "formacion": "",
@@ -134,7 +134,7 @@
   },
   {
    "anio": 1976,
-   "historia": "",
+   "historia": "Steve Jobs y Steve Wozniak fundan Apple.",
    "personal": "Cumplo 11 años. Viajo a Madrid con Tauro?",
    "laboral": "",
    "formacion": "",
@@ -158,7 +158,7 @@
   },
   {
    "anio": 1978,
-   "historia": "",
+   "historia": "Primeros sistemas comerciales de hojas de cálculo (VisiCalc en desarrollo). Se desarrolla Word, el procesador de textos de Microsoft .",
    "personal": "Cumplo 13 años",
    "laboral": "",
    "formacion": "",
@@ -170,7 +170,7 @@
   },
   {
    "anio": 1979,
-   "historia": "HP lanza la HP-41C, calculadora programable alfanumérica con módulos enchufables.",
+   "historia": "HP lanza la HP-41C, calculadora programable alfanumérica con módulos enchufables. Se lanza Oracle Database, consolidando el modelo relacional comercial.",
    "personal": "",
    "laboral": "",
    "formacion": "Empiezo mis estudios de formación profesional de química. \n1er. Curso de FP1. Institut Comte de Rius",
@@ -182,7 +182,7 @@
   },
   {
    "anio": 1980,
-   "historia": "Se comercializa la HP-41CV (con más memoria que la HP-41C).",
+   "historia": "Se comercializa la HP-41CV (con más memoria que la HP-41C). IBM decide entrar en el mercado de los PC. Se popularizan las redes locales y estaciones UNIX; Philips y Sony crean el CD.",
    "personal": "Confirmación",
    "laboral": "Durante la temporada de algodón, en septiembre, recolecté algodón.",
    "formacion": "2º curso de FP1. Institut Comte de Rius",
@@ -194,7 +194,7 @@
   },
   {
    "anio": 1981,
-   "historia": "Sinclair lanza el ZX Spectrum (Reino Unido). IBM presenta el PC.",
+   "historia": "Sinclair lanza el ZX Spectrum (Reino Unido). IBM lanza el IBM PC con arquitectura abierta y MS-DOS, desatando la industria de clones",
    "personal": "Especialista de la armada honorario",
    "laboral": "Durante la temporada de algodón, en septiembre, recolecté algodón.",
    "formacion": "2º curso de FP1. Institut Comte de Rius",
@@ -507,7 +507,7 @@
   {
    "anio": 2007,
    "historia": "Windows Vista (disponibilidad general en enero).",
-   "personal": "Viaje a [Dublin](galeria.html?g=dublin)",
+   "personal": "Viaje a [Dublín](galeria.html?g=dublin)",
    "laboral": "Operador de planta, Bayer Material Science S.L. (MDI/CO).",
    "formacion": "Curso de acceso a la universidad por la UNED.",
    "informatica": "",
