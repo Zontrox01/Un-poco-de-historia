@@ -38,7 +38,7 @@
   },
   {
    "anio": 1968,
-   "historia": "Robert Noyce y Gordon Moore fundan Intel; Douglas Engelbart realiza \"The Mother of All Demos\" (ratón, hipertexto, videoconferencia) .",
+   "historia": "Robert Noyce y Gordon Moore fundan Intel. \nDouglas Engelbart realiza \"The Mother of All Demos\" (ratón, hipertexto, videoconferencia) .",
    "personal": "Cumplo 3 años.",
    "laboral": "",
    "formacion": "",
@@ -50,7 +50,7 @@
   },
   {
    "anio": 1969,
-   "historia": "Nace ARPANET (precursor de Internet) y se crea el sistema UNICS en Bell Labs, que luego sería Unix .",
+   "historia": "Nace ARPANET (precursor de Internet). \nSe crea el sistema UNICS en Bell Labs, que luego sería Unix .",
    "personal": "Cumplo 4 años.",
    "laboral": "",
    "formacion": "Aprendo a leer",
@@ -62,7 +62,7 @@
   },
   {
    "anio": 1970,
-   "historia": "UNIX es renombrado formalmente; Edgar F. Codd publica el modelo relacional de bases de datos .",
+   "historia": "UNIX es renombrado formalmente.\nEdgar F. Codd publica el modelo relacional de bases de datos .",
    "personal": "Cumplo 5 años.",
    "laboral": "",
    "formacion": "",
@@ -86,7 +86,7 @@
   },
   {
    "anio": 1972,
-   "historia": "HP lanza la HP-35, primera calculadora científica de bolsillo. Se crea el lenguaje C; Ray Tomlinson introduce el uso de @ para el correo electrónico en red .",
+   "historia": "HP lanza la HP-35, primera calculadora científica de bolsillo. \nSe crea el lenguaje C. \nRay Tomlinson introduce el uso de @ para el correo electrónico en red .",
    "personal": "Cumplo 7 años.",
    "laboral": "",
    "formacion": "",
@@ -98,7 +98,7 @@
   },
   {
    "anio": 1973,
-   "historia": "Se desarrolla Ethernet en Xerox PARC . Xerox Alto introduce la informática personal con GUI.",
+   "historia": "Se desarrolla Ethernet en Xerox PARC . \nXerox Alto introduce la informática personal con GUI.",
    "personal": "Cumplo 8 años.",
    "laboral": "",
    "formacion": "",
@@ -110,7 +110,7 @@
   },
   {
    "anio": 1974,
-   "historia": "Vint Cerf y Bob Kahn diseñan TCP/IP, la base técnica de Internet . Se publica el diseño del Intel 8080.",
+   "historia": "Vint Cerf y Bob Kahn diseñan TCP/IP, la base técnica de Internet . \nSe publica el diseño del Intel 8080.",
    "personal": "Cumplo 9 años. \nNace mi hermana Begoña (mecanografía???)",
    "laboral": "",
    "formacion": "",
@@ -146,7 +146,7 @@
   },
   {
    "anio": 1977,
-   "historia": "Aparecen Apple II, Commodore PET y TRS-80; TI lanza la TI-59.",
+   "historia": "Aparecen Apple II, Commodore PET y TRS-80. \nTI lanza la TI-59.",
    "personal": "Cumplo 12 años\nNace mi hermano Moisés",
    "laboral": "",
    "formacion": "",
@@ -170,7 +170,7 @@
   },
   {
    "anio": 1979,
-   "historia": "HP lanza la HP-41C, calculadora programable alfanumérica con módulos enchufables. Se lanza Oracle Database, consolidando el modelo relacional comercial.",
+   "historia": "HP lanza la HP-41C, calculadora programable alfanumérica con módulos enchufables. \nSe lanza Oracle Database, consolidando el modelo relacional comercial.",
    "personal": "",
    "laboral": "",
    "formacion": "Empiezo mis estudios de formación profesional de química. \n1er. Curso de FP1. Institut Comte de Rius",
@@ -182,7 +182,7 @@
   },
   {
    "anio": 1980,
-   "historia": "Se comercializa la HP-41CV (con más memoria que la HP-41C). IBM decide entrar en el mercado de los PC. Se popularizan las redes locales y estaciones UNIX; Philips y Sony crean el CD.",
+   "historia": "Se comercializa la HP-41CV (con más memoria que la HP-41C). \nIBM decide entrar en el mercado de los PC. \nSe popularizan las redes locales y estaciones UNIX.\nPhilips y Sony crean el CD.",
    "personal": "Confirmación",
    "laboral": "Durante la temporada de algodón, en septiembre, recolecté algodón.",
    "formacion": "2º curso de FP1. Institut Comte de Rius",
@@ -194,7 +194,7 @@
   },
   {
    "anio": 1981,
-   "historia": "Sinclair lanza el ZX Spectrum (Reino Unido). IBM lanza el IBM PC con arquitectura abierta y MS-DOS, desatando la industria de clones",
+   "historia": "Sinclair lanza el ZX Spectrum (Reino Unido). \nIBM lanza el IBM PC con arquitectura abierta y MS-DOS, desatando la industria de clones.",
    "personal": "Especialista de la armada honorario",
    "laboral": "Durante la temporada de algodón, en septiembre, recolecté algodón.",
    "formacion": "2º curso de FP1. Institut Comte de Rius",
@@ -206,7 +206,7 @@
   },
   {
    "anio": 1982,
-   "historia": "Sale al mercado el Commodore 64 (agosto, EE. UU.).",
+   "historia": "Sale al mercado el Commodore 64 (agosto, EE. UU.). \nSe funda Compaq, clave en la expansión de los compatibles IBM.",
    "personal": "",
    "laboral": "Durante la temporada de La Pera de San Juan, en junio, recolecté peras y ciruelas. \nDespués durante el verano trabajé en el mercado municipal de Salou como reponedor de fruta.",
    "formacion": "Obtengo el título: Operador de laboratorio (Técnico auxiliar).\n1er curso de FP2. Institut Comte de Rius",
@@ -218,7 +218,7 @@
   },
   {
    "anio": 1983,
-   "historia": "HP edita en mayo su catálogo de software de la HP-41, con un módulo 'Games' (ref. 00041-15022) y libros 'Games' y 'Games II'.",
+   "historia": "Se adopta TCP/IP en ARPANET, origen práctico de Internet. \nAparece Lotus 1-2-3. \nSe formaliza el DNS (Domain Name System)",
    "personal": "",
    "laboral": "Durante la temporada de La Pera de San Juan, en junio, recolecté peras y ciruelas. \nDespués durante el verano trabajé en el mercado municipal de Salou como reponedor de fruta.",
    "formacion": "1er curso de FP2. Institut Comte de Rius",
@@ -230,7 +230,7 @@
   },
   {
    "anio": 1984,
-   "historia": "Apple presenta el Macintosh.",
+   "historia": "Apple presenta el Macintosh que populariza la interfaz gráfica (GUI) y el ratón.",
    "personal": "",
    "laboral": "Durante el  verano trabaje en Bayer para la empresa de montaje E.M.M.S.A.",
    "formacion": "2º curso FP2. Institut Comte de Rius",
@@ -242,7 +242,7 @@
   },
   {
    "anio": 1985,
-   "historia": "Windows 1.0 (primera versión de Windows).",
+   "historia": "Microsoft presenta Windows 1.0 (primera versión de Windows).",
    "personal": "",
    "laboral": "Desde mayo a octubre trabajé como camarero en el bar El Extremeño.\nEl 7  de octubre empecé en Bayer como operador de planta en Bayer Hispania Industrial S.A. en la planta de TDI (TDI/MDI/CO), a turnos.",
    "formacion": "Abandoné los estudios en mayo,  un mes antes de acabar el curso",
@@ -266,7 +266,7 @@
   },
   {
    "anio": 1987,
-   "historia": "En junio, Amstrad lanza el PC1640. MS-DOS 3.3 (abril).",
+   "historia": "En junio, Amstrad lanza el PC1640. MS-DOS 3.3 (abril). IBM presenta la arquitectura PS/2 y VGA.",
    "personal": "",
    "laboral": "Operador de planta, Bayer Hispania Industrial S.A. (TDI/MDI/CO).",
    "formacion": "",
@@ -278,7 +278,7 @@
   },
   {
    "anio": 1988,
-   "historia": "Nace la revista PC Magazine Actual (1988); en 1991 pasa a llamarse PC Actual. \nSe crea el dominio .es",
+   "historia": "Nace la revista PC Magazine Actual (1988); en 1991 pasa a llamarse PC Actual. \nSe crea el dominio .es\nEl gusano Morris evidencia los riesgos de Internet.",
    "personal": "El 11 de septiembre me casé con Juani.",
    "laboral": "Operador de planta, Bayer Hispania Industrial S.A. (TDI/MDI/CO).",
    "formacion": "",
@@ -426,7 +426,7 @@
    "personal": "Vacaciones en Cerler con curso de Esquí",
    "laboral": "Operador de planta, Bayer Hispania S.A. (MDI/CO).",
    "formacion": "",
-   "informatica": "Web personal en TINET (usuaris.tinet.cat/~lmrb).\nEmpecé el coleccionable 'Robots – Construye tu microbot'. Construí y programé mi primer robot.\nProgramación de microcontroladores PIC (16F84, 16F84A, 16F87 y 16F87A) en ensamblador, con MPLAB SIM.",
+   "informatica": "Web personal en TINET (usuaris.tinet.cat/~lmrb).\nEmpecé el coleccionable 'Robots – Construye tu microbot'. Construí y programé mi primer robot.\nCompro un móvil Alcatel One Touch 301 {foto: Moviles/alcatel_onetouch301 - 2000.jpg}\nProgramación de microcontroladores PIC (16F84, 16F84A, 16F87 y 16F87A) en ensamblador, con MPLAB SIM.",
    "so": "Windows 2000/Windows Me",
    "programas": "CorelDRAW 10 (oct./nov. 2000)\nMPLAB SIM",
    "enlaces": "https://usuaris.tinet.cat/~lmrb",
@@ -518,7 +518,7 @@
   },
   {
    "anio": 2008,
-   "historia": "",
+   "historia": "Nace GitHub. \nSe consolida Android y Google Chrome.",
    "personal": "",
    "laboral": "Operador de planta, Bayer Material Science S.L. (MDI/CO).",
    "formacion": "Empiezo mis estudios de Licenciatura química. 1º de Quimica. UNED",
@@ -530,7 +530,7 @@
   },
   {
    "anio": 2009,
-   "historia": "Windows 7 (octubre).",
+   "historia": "Bitcoin demuestra la viabilidad de la blockchain.\nMicrosoft lanza Windows 7.\nSe libera Node.js.\nNace MongoDB .",
    "personal": "Viaje a [Amsterdam](https://www.facebook.com/media/set/?set=a.1186018334566&type=3&locale=es_ES) \nCreación de una red de [proyectos solidarios](https://www.facebook.com/photo/?fbid=1300310551800&set=a.1300310431797&locale=es_ES)",
    "laboral": "Operador de planta, Bayer Material Science S.L. (MDI/CO).",
    "formacion": "",
@@ -542,7 +542,7 @@
   },
   {
    "anio": 2010,
-   "historia": "",
+   "historia": "Apple lanza el iPad y supera a Microsoft como empresa tecnológica más valiosa.",
    "personal": "Viaje a [Egipto](https://www.facebook.com/media/set/?set=a.1440874345807&type=3&locale=es_ES).",
    "laboral": "Operador de planta, Bayer Material Science S.L. (MDI/CO). Formación: Grado Superior de Química Industrial, Institut Comte de Rius (desde 09/2010).",
    "formacion": "Empiezo mis estudios de Técnico superior en química industrial. \n1er. Curso del Grado Superior de Química Industrial, Institut Comte de Rius",
@@ -554,7 +554,7 @@
   },
   {
    "anio": 2011,
-   "historia": "",
+   "historia": "IBM Watson vence en Jeopardy!.",
    "personal": "Viaje a [Venecia](https://www.facebook.com/media/set/?set=a.2192312211284&type=3&locale=es_ES).",
    "laboral": "Operador de planta, Bayer Material Science S.L. (MDI/CO).  (desde 09/2010).\nFormador del Plan de formación de planta MDI/CO.",
    "formacion": "2º. Curso del Grado Superior de Química Industrial, Institut Comte de Rius",
@@ -566,7 +566,7 @@
   },
   {
    "anio": 2012,
-   "historia": "",
+   "historia": "AlexNet revoluciona el aprendizaje profundo.",
    "personal": "Viaje a  [Cadaques](https://www.facebook.com/media/set/?set=a.3619092959911&type=3&locale=es_ES). \nViaje a [Marrakech](https://www.facebook.com/media/set/?set=a.3882968436633&type=3&locale=es_ES). \nViaje a [Budapest](https://www.facebook.com/media/set/?set=a.4459532090364&type=3&locale=es_ES). \n[Bautismo de Buceo](https://www.facebook.com/photo.php?fbid=340430146056350&set=t.1351508296&type=3&locale=es_ES). \n[Via ferrata](https://www.facebook.com/photo.php?fbid=391106254322072&set=t.1351508296&type=3&locale=es_ES). \nSalida al [congost de Mont-rebei](https://www.facebook.com/media/set/?set=a.3679732275856&type=3&locale=es_ES).",
    "laboral": "Operador de planta, Bayer Material Science S.L.  \nFormador del Plan de formación de planta MDI/CO.",
    "formacion": "Obtengo el título de Técnico superior en química industrial. \nMe dan un diploma al mejor Trabajo de fin de ciclo (CFGS Química Industrial, Comte de Rius): 'Diseño de una planta de Nitrógeno y Amoniaco' (con Javier). Copia en papel en la biblioteca del instituto; publicado en Amazon en octubre de 2025.\nEmpiezo mis estudios de ingeniería química. Grado en Ingeniería Química en la URV.",
@@ -578,7 +578,7 @@
   },
   {
    "anio": 2013,
-   "historia": "",
+   "historia": "Docker populariza los contenedores.",
    "personal": "En enero estrello el Citroën Sara.\nViaje a [Cuenca y Teruel](https://www.facebook.com/media/set/?set=a.10201881807990800&type=3&locale=es_ES)",
    "laboral": "Operador de planta, Bayer Material Science S.L. \nFormador del Plan de formación de planta MDI/CO.",
    "formacion": "Grado en ingeniería química. URV",
@@ -590,7 +590,7 @@
   },
   {
    "anio": 2014,
-   "historia": "",
+   "historia": "Microsoft anuncia .NET como plataforma abierta.\nSe libera Kubernetes. \nNace el concepto de serverless con AWS Lambda",
    "personal": "Viaje a [Praga](https://www.facebook.com/media/set/?set=a.10202953282376990&type=3&locale=es_ES) \nViaje a [Lisboa](https://www.facebook.com/media/set/?set=a.10204451955882891&type=3&locale=es_ES)",
    "laboral": "Operador de planta, Bayer Material Science S.L. \nFormador del Plan de formación de planta MDI/CO.",
    "formacion": "Grado en ingeniería química. URV. Recibo, junto a mi equipo de estudio el [Premio Messer)(messer) al mejor trabajo con gases industriales.",
@@ -602,7 +602,7 @@
   },
   {
    "anio": 2015,
-   "historia": "",
+   "historia": "Se publica TensorFlow, clave para la democratización del machine learning",
    "personal": "",
    "laboral": "Operador de planta, Bayer Material Science S.L.",
    "formacion": "Grado en ingeniería química. URV",
@@ -614,7 +614,7 @@
   },
   {
    "anio": 2016,
-   "historia": "",
+   "historia": "AlphaGo derrota a Lee Sedol.",
    "personal": "",
    "laboral": "Operador de planta. Hasta 09/2016 Bayer Material Science S.L.; desde 09/2016 Covestro S.L.",
    "formacion": "Grado en ingeniería química. URV",
@@ -626,7 +626,7 @@
   },
   {
    "anio": 2017,
-   "historia": "",
+   "historia": "Se publica la arquitectura Transformer, base de los modelos de lenguaje modernos.",
    "personal": "",
    "laboral": "Operador de planta, Covestro S.L.",
    "formacion": "Grado en ingeniería química. URV",
@@ -638,7 +638,7 @@
   },
   {
    "anio": 2018,
-   "historia": "",
+   "historia": "GPT demuestra el potencial de los grandes modelos lingüísticos.",
    "personal": "",
    "laboral": "Operador de planta, Covestro S.L.",
    "formacion": "Grado en ingeniería química. URV",
@@ -650,7 +650,7 @@
   },
   {
    "anio": 2019,
-   "historia": "",
+   "historia": "Google anuncia la supremacía cuántica experimental con Sycamore.",
    "personal": "",
    "laboral": "Operador de planta, Covestro S.L.",
    "formacion": "Grado en ingeniería química. URV",
@@ -662,7 +662,7 @@
   },
   {
    "anio": 2020,
-   "historia": "",
+   "historia": "GPT-3 impulsa una nueva generación de IA generativa.",
    "personal": "",
    "laboral": "Desde 01/2020 Shift supervisor assistant, Covestro S.L.",
    "formacion": "Obtengo el [Título de ingeniero químico].\nTrabajo final de grado (TFG) 'Debottlenecking hidráulico de los circuitos de una unidad integrada CDU_VDU', realizado en el último cuatrimestre del último curso; publicado en la web de la URV y, en octubre de 2025, en Amazon.",
@@ -686,7 +686,7 @@
   },
   {
    "anio": 2022,
-   "historia": "",
+   "historia": "ChatGPT lleva la IA generativa al gran público.",
    "personal": "",
    "laboral": "Shift supervisor assistant hasta 12/2022; desde 12/2022 Formador de producción, Covestro S.L.\nEmpiezo a pintar (ya había hecho alguna cosa de niño y adolescente, pero lo tenía abandonado). Acuarela, pastel, creta, carboncillo, lápiz, lápices de colores, acrílico, gouache, óleo, ceras, tintas propias (como café), rotuladores y tinta. Más de 300 obras.",
    "formacion": "",
@@ -698,7 +698,7 @@
   },
   {
    "anio": 2023,
-   "historia": "",
+   "historia": "Se consolidan los modelos frontera (GPT-4, Claude) y los agentes de IA .",
    "personal": "",
    "laboral": "Formador de producción, Covestro S.L. (planta MDA/MDI/CO).\nPublico 'Entre relatos y cuentos' (julio de 2023).",
    "formacion": "",
@@ -710,7 +710,7 @@
   },
   {
    "anio": 2024,
-   "historia": "",
+   "historia": "Los PC con IA (NPU integrada) entran en el mercado de masas.",
    "personal": "",
    "laboral": "Formador de producción, Covestro S.L. (planta MDA/MDI/CO).\nPublico 'El octavo condado' (agosto de 2024).",
    "formacion": "",
@@ -722,7 +722,7 @@
   },
   {
    "anio": 2025,
-   "historia": "",
+   "historia": "Consolidación de agentes de IA capaces de realizar tareas complejas.",
    "personal": "",
    "laboral": "Formador de producción, Covestro S.L. (planta MDA/MDI/CO).\nPublico 'Entre relatos y cuentos II' (octubre de 2025). En octubre de 2025 publico también en Amazon los dos trabajos académicos (2011 y 2012).",
    "formacion": "",
@@ -734,7 +734,7 @@
   },
   {
    "anio": 2026,
-   "historia": "",
+   "historia": "OpenAI y Anthropic anuncian que sus modelos de IA habrían refutado la hipótesis ETH, un resultado que, de confirmarse, sería de nivel Turing en teoría de la computación .",
    "personal": "",
    "laboral": "Formador de producción, Covestro S.L. (planta MDA/MDI/CO).\nPublico 'Entre relatos y cuentos III' (enero de 2026).",
    "formacion": "",
