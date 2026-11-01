@@ -1186,7 +1186,7 @@
   "descripcion": "Mi quinto móvil",
   "items": [
    {
-    "titulo": "Alcater One Touch 301",
+    "titulo": "Alcatel One Touch 301",
     "detalle": "Mi segundo móvil",
     "tipo": "Imagen",
     "fecha": "2000",
@@ -1244,6 +1244,16 @@
     "origen": "Iphone8.jpg",
     "miniatura": "img/telefonos-moviles/iphone8-m.jpg",
     "imagen": "img/telefonos-moviles/iphone8.jpg"
+   },
+   {
+    "titulo": "1366 2000",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "",
+    "medio": "imagen",
+    "origen": "1366_2000.webp",
+    "miniatura": "img/telefonos-moviles/1366-2000-m.jpg",
+    "imagen": "img/telefonos-moviles/1366-2000.jpg"
    }
   ]
  }
