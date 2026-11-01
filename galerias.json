@@ -660,7 +660,7 @@
   ]
  },
  "dublin": {
-  "titulo": "Dublin",
+  "titulo": "Dublín",
   "descripcion": "",
   "items": [
    {
@@ -1056,7 +1056,7 @@
   ]
  },
  "triatlon": {
-  "titulo": "Triatlon",
+  "titulo": "Triatlón",
   "descripcion": "",
   "items": [
    {
@@ -1182,8 +1182,8 @@
   ]
  },
  "telefonos-moviles": {
-  "titulo": "iphone 8",
-  "descripcion": "Mi quinto móvil",
+  "titulo": "Teléfonos Móviles",
+  "descripcion": "",
   "items": [
    {
     "titulo": "Alcatel One Touch 301",

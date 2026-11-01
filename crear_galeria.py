@@ -93,8 +93,8 @@ def crear(nombre, carpeta, cab, filas, a, datos):
     fotos = list(dict.fromkeys(listadas + fotos))   # manda el orden de la hoja
     destino = BASE / "img" / nombre; destino.mkdir(parents=True, exist_ok=True)
     g = datos.setdefault(nombre, {"titulo": cab.get("nombre", nombre), "descripcion": "", "items": []})
-    g["titulo"] = a.titulo or cab.get("titulo") or g["titulo"]
-    g["descripcion"] = a.descripcion if a.descripcion is not None else (cab.get("descripcion") or g["descripcion"])
+    g["titulo"] = a.titulo or cab.get("titulo") or cab.get("nombre", nombre)   # manda el Excel (no se arrastra lo anterior)
+    g["descripcion"] = a.descripcion if a.descripcion is not None else cab.get("descripcion", "")
     previos = {it.get("origen"): it for it in g["items"] if it.get("origen")}
     items, validos, usados = [], set(), set()
     for p in fotos:
