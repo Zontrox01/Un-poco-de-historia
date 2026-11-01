@@ -628,24 +628,24 @@
     "imagen": "img/hardware/zxspectrum48k.jpg"
    },
    {
-    "titulo": "01 mbp 13 mid 10",
-    "detalle": "",
-    "tipo": "Fotografía",
-    "fecha": "",
-    "medio": "imagen",
-    "origen": "01-mbp_13_mid_10.jpg",
-    "miniatura": "img/hardware/01-mbp-13-mid-10-m.jpg",
-    "imagen": "img/hardware/01-mbp-13-mid-10.jpg"
-   },
-   {
-    "titulo": "02 mbp 13 mid 10",
-    "detalle": "",
-    "tipo": "Fotografía",
-    "fecha": "",
+    "titulo": "Mac Book Pro",
+    "detalle": "Mac Book Pro (modelo mdiados 2009)",
+    "tipo": "imagen",
+    "fecha": "2010",
     "medio": "imagen",
     "origen": "02-mbp_13_mid_10.jpg",
     "miniatura": "img/hardware/02-mbp-13-mid-10-m.jpg",
     "imagen": "img/hardware/02-mbp-13-mid-10.jpg"
+   },
+   {
+    "titulo": "Mac Book Pro",
+    "detalle": "Mac Book Pro (modelo mdiados 2009)",
+    "tipo": "imagen",
+    "fecha": "2010",
+    "medio": "imagen",
+    "origen": "01-mbp_13_mid_10.jpg",
+    "miniatura": "img/hardware/01-mbp-13-mid-10-m.jpg",
+    "imagen": "img/hardware/01-mbp-13-mid-10.jpg"
    },
    {
     "titulo": "Handy Scanner HS 3000 PLUS 2",
