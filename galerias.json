@@ -618,6 +618,26 @@
     "imagen": "img/hardware/zx-spectrum.jpg"
    },
    {
+    "titulo": "01 mbp 13 mid 10",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "",
+    "medio": "imagen",
+    "origen": "01-mbp_13_mid_10.jpg",
+    "miniatura": "img/hardware/01-mbp-13-mid-10-m.jpg",
+    "imagen": "img/hardware/01-mbp-13-mid-10.jpg"
+   },
+   {
+    "titulo": "02 mbp 13 mid 10",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "",
+    "medio": "imagen",
+    "origen": "02-mbp_13_mid_10.jpg",
+    "miniatura": "img/hardware/02-mbp-13-mid-10-m.jpg",
+    "imagen": "img/hardware/02-mbp-13-mid-10.jpg"
+   },
+   {
     "titulo": "Handy Scanner HS 3000 PLUS 2",
     "detalle": "",
     "tipo": "Fotografía",
@@ -1166,14 +1186,44 @@
     "imagen": "img/telefonos-moviles/alcatel-onetouch301-2000.jpg"
    },
    {
-    "titulo": "nokia 3650   2003",
-    "detalle": "",
-    "tipo": "Fotografía",
-    "fecha": "",
+    "titulo": "Nokia 3650",
+    "detalle": "Mi tercer móvil",
+    "tipo": "Imagen",
+    "fecha": "2003",
     "medio": "imagen",
     "origen": "nokia-3650 - 2003.jpg",
     "miniatura": "img/telefonos-moviles/nokia-3650-2003-m.jpg",
     "imagen": "img/telefonos-moviles/nokia-3650-2003.jpg"
+   },
+   {
+    "titulo": "Iphone 4",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "2010",
+    "medio": "imagen",
+    "origen": "01-iphone4.jpg",
+    "miniatura": "img/telefonos-moviles/01-iphone4-m.jpg",
+    "imagen": "img/telefonos-moviles/01-iphone4.jpg"
+   },
+   {
+    "titulo": "02 iphone4",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "",
+    "medio": "imagen",
+    "origen": "02-iphone4.jpg",
+    "miniatura": "img/telefonos-moviles/02-iphone4-m.jpg",
+    "imagen": "img/telefonos-moviles/02-iphone4.jpg"
+   },
+   {
+    "titulo": "03 iphone4",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "",
+    "medio": "imagen",
+    "origen": "03-iphone4.jpg",
+    "miniatura": "img/telefonos-moviles/03-iphone4-m.jpg",
+    "imagen": "img/telefonos-moviles/03-iphone4.jpg"
    }
   ]
  }
