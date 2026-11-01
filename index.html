@@ -14,7 +14,7 @@
 <script src="visor.js"></script>
 <script>
 const SECC=[["linea","Línea temporal"],["hilos","Hilos"],["obras","Obras"],["programas","Programas"]];
-const CAMPOS=[["historia","Historia"],["personal","Mi vida personal"],["laboral","Mi vida laboral"],["formacion","Mi formación"],["informatica","Hitos, proyectos y eventos"],["so","Sistema operativo"],["programas","Programas más relevantes"],["enlaces","Archivo y enlaces"]];
+const CAMPOS=[["personal","Historia de mi vida"],["laboral","Mi vida laboral"],["formacion","Mi formación"],["historia","Historiade la informática"],["informatica","Hitos, proyectos y eventos"],["so","Sistema operativo"],["programas","Programas más relevantes"],["enlaces","Archivo y enlaces"]];
 let D,GAL={},actual="linea";
 const slug=s=>s.normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
