@@ -1172,11 +1172,11 @@
   ]
  },
  "telefonos-moviles": {
-  "titulo": "Teléfonos Móviles",
-  "descripcion": "",
+  "titulo": "iphone 8",
+  "descripcion": "Mi quinto móvil",
   "items": [
    {
-    "titulo": "Alcater One Touch 201",
+    "titulo": "Alcater One Touch 301",
     "detalle": "Mi segundo móvil",
     "tipo": "Imagen",
     "fecha": "2000",
@@ -1206,20 +1206,20 @@
     "imagen": "img/telefonos-moviles/01-iphone4.jpg"
    },
    {
-    "titulo": "02 iphone4",
+    "titulo": "Iphone 4",
     "detalle": "",
     "tipo": "Fotografía",
-    "fecha": "",
+    "fecha": "2010",
     "medio": "imagen",
     "origen": "02-iphone4.jpg",
     "miniatura": "img/telefonos-moviles/02-iphone4-m.jpg",
     "imagen": "img/telefonos-moviles/02-iphone4.jpg"
    },
    {
-    "titulo": "03 iphone4",
+    "titulo": "Iphone 4",
     "detalle": "",
     "tipo": "Fotografía",
-    "fecha": "",
+    "fecha": "2010",
     "medio": "imagen",
     "origen": "03-iphone4.jpg",
     "miniatura": "img/telefonos-moviles/03-iphone4-m.jpg",
