@@ -226,11 +226,11 @@
    "so": "",
    "programas": "",
    "enlaces": "",
-   "fuente": true
+   "fuente": false
   },
   {
    "anio": 1984,
-   "historia": "Apple presenta el Macintosh que populariza la [interfaz gráfica (GUI)](https://es.wikipedia.org/wiki/Interfaz_gr%C3%A1fica_de_usuario) y el [ratón](https://es.wikipedia.org/wiki/Rat%C3%B3n_(inform%C3%A1tica))).",
+   "historia": "Apple presenta el Macintosh que populariza la [interfaz gráfica (GUI)](https://es.wikipedia.org/wiki/Interfaz_gr%C3%A1fica_de_usuario) y el [ratón](https://es.wikipedia.org/wiki/Rat%C3%B3n_%28inform%C3%A1tica%29').",
    "personal": "",
    "laboral": "Durante el  verano trabaje en Bayer para la empresa de montaje E.M.M.S.A.",
    "formacion": "2º curso FP2. Institut Comte de Rius",
@@ -254,7 +254,7 @@
   },
   {
    "anio": 1986,
-   "historia": "Amstrad lanza el [PC1512](https://es.wikipedia.org/wiki/Amstrad_PC1512){foto: Hardware/Amstrad_pc1512sd.jpg} (con MS-DOS 3.2 y GEM Desktop).\n[NSFNET](https://es.wikipedia.org/wiki/NSFNet) amplía la futura Internet académica.",
+   "historia": "Amstrad lanza el [PC1512](https://es.wikipedia.org/wiki/Amstrad_PC1512) (con MS-DOS 3.2 y GEM Desktop). [Imagen del PC1512]{foto: Hardware/Amstrad_pc1512sd.jpg}.\n[NSFNET](https://es.wikipedia.org/wiki/NSFNet) amplía la futura Internet académica.",
    "personal": "",
    "laboral": "Operador de planta, Bayer Hispania Industrial S.A. (TDI/MDI/CO).",
    "formacion": "",
@@ -262,11 +262,11 @@
    "so": "",
    "programas": "",
    "enlaces": "",
-   "fuente": true
+   "fuente": false
   },
   {
    "anio": 1987,
-   "historia": "En junio, Amstrad lanza el PC1640. MS-DOS 3.3 (abril). \n[IBM](IBM%20-%20Wikipedia,%20la%20enciclopedia%20libre) presenta la arquitectura [PS/2](https://es.wikipedia.org/wiki/PS/2) y [VGA](https://es.wikipedia.org/wiki/Video_Graphics_Array).",
+   "historia": "En junio, Amstrad lanza el PC1640. MS-DOS 3.3 (abril). \n[IBM](https://es.wikipedia.org/wiki/IBM) presenta la arquitectura [PS/2](https://es.wikipedia.org/wiki/PS/2) y [VGA](https://es.wikipedia.org/wiki/Video_Graphics_Array).",
    "personal": "",
    "laboral": "Operador de planta, Bayer Hispania Industrial S.A. (TDI/MDI/CO).",
    "formacion": "",
@@ -274,7 +274,7 @@
    "so": "MS DOS (Gem Desktop)",
    "programas": "",
    "enlaces": "",
-   "fuente": true
+   "fuente": false
   },
   {
    "anio": 1988,
@@ -286,7 +286,7 @@
    "so": "",
    "programas": "",
    "enlaces": "",
-   "fuente": true
+   "fuente": false
   },
   {
    "anio": 1989,
@@ -302,7 +302,7 @@
   },
   {
    "anio": 1990,
-   "historia": "Microsoft lanza [Windows 3.0.](https://es.wikipedia.org/wiki/Windows_3.0).\nComienza el desarrollo del núcleo [Linux](https://es.wikipedia.org/wiki/GNU/Linux).\nSe define formalmente la WWW con HTTP, HTML y URL.",
+   "historia": "Microsoft lanza [Windows 3.0](https://es.wikipedia.org/wiki/Windows_3.0).\nComienza el desarrollo del núcleo [Linux](https://es.wikipedia.org/wiki/GNU/Linux).\nSe define formalmente la WWW con HTTP, HTML y URL.",
    "personal": "Invento y desarrollo un juego rompecabezas.",
    "laboral": "Operador de planta, Bayer Hispania Industrial S.A. (TDI/MDI/CO).",
    "formacion": "",
@@ -310,7 +310,7 @@
    "so": "",
    "programas": "",
    "enlaces": "",
-   "fuente": true
+   "fuente": false
   },
   {
    "anio": 1991,
@@ -322,7 +322,7 @@
    "so": "MS-DOS; Windows 3.0",
    "programas": "Clipper 5.01 (a verificar)",
    "enlaces": "",
-   "fuente": true
+   "fuente": false
   },
   {
    "anio": 1992,
@@ -334,7 +334,7 @@
    "so": "MS-DOS; Windows 3.1",
    "programas": "CorelDRAW 3 (oct. 1992), 3DStudio, Autocad 10",
    "enlaces": "",
-   "fuente": true
+   "fuente": false
   },
   {
    "anio": 1993,
@@ -346,7 +346,7 @@
    "so": "MS-DOS 6.2 Windows 3.11",
    "programas": "CorelDRAW 4 (may. 1993)",
    "enlaces": "",
-   "fuente": true
+   "fuente": false
   },
   {
    "anio": 1994,
@@ -358,7 +358,7 @@
    "so": "Windows NT 3.1 y Windows NT 3.5",
    "programas": "CorelDRAW 5 (jul. 1994)\nAutoCAD R12 para MS-DOS",
    "enlaces": "",
-   "fuente": true
+   "fuente": false
   },
   {
    "anio": 1995,
@@ -370,7 +370,7 @@
    "so": "Windows 95",
    "programas": "Office 95 (24 ago. 1995)\nCorelDRAW 6 (1995)\nFrontPage 1.0 (Vermeer, nov. 1995)\nPageMaker 5 (versión usada en 'El Tricicle')",
    "enlaces": "",
-   "fuente": true
+   "fuente": false
   },
   {
    "anio": 1996,
