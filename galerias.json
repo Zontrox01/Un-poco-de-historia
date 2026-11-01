@@ -608,7 +608,7 @@
     "imagen": "img/hardware/video-blaster-ct6000-2.jpg"
    },
    {
-    "titulo": "ZX Spectrum",
+    "titulo": "Sinclair ZX Spectrum",
     "detalle": "Imagen escaneada de mi manual",
     "tipo": "Imagen",
     "fecha": "1983",
@@ -616,6 +616,16 @@
     "origen": "ZX spectrum.jpg",
     "miniatura": "img/hardware/zx-spectrum-m.jpg",
     "imagen": "img/hardware/zx-spectrum.jpg"
+   },
+   {
+    "titulo": "Sinclair ZX Spectrum",
+    "detalle": "Imagen descargada de internet",
+    "tipo": "imagen",
+    "fecha": "1983",
+    "medio": "imagen",
+    "origen": "ZXSpectrum48k.jpg",
+    "miniatura": "img/hardware/zxspectrum48k-m.jpg",
+    "imagen": "img/hardware/zxspectrum48k.jpg"
    },
    {
     "titulo": "01 mbp 13 mid 10",
@@ -1197,8 +1207,8 @@
    },
    {
     "titulo": "Iphone 4",
-    "detalle": "",
-    "tipo": "Fotografía",
+    "detalle": "Mi cuaro móvil",
+    "tipo": "Imagen",
     "fecha": "2010",
     "medio": "imagen",
     "origen": "01-iphone4.jpg",
@@ -1207,8 +1217,8 @@
    },
    {
     "titulo": "Iphone 4",
-    "detalle": "",
-    "tipo": "Fotografía",
+    "detalle": "Mi cuaro móvil",
+    "tipo": "Imagen",
     "fecha": "2010",
     "medio": "imagen",
     "origen": "02-iphone4.jpg",
@@ -1217,13 +1227,23 @@
    },
    {
     "titulo": "Iphone 4",
-    "detalle": "",
-    "tipo": "Fotografía",
+    "detalle": "Mi cuaro móvil",
+    "tipo": "Imagen",
     "fecha": "2010",
     "medio": "imagen",
     "origen": "03-iphone4.jpg",
     "miniatura": "img/telefonos-moviles/03-iphone4-m.jpg",
     "imagen": "img/telefonos-moviles/03-iphone4.jpg"
+   },
+   {
+    "titulo": "iphone 8",
+    "detalle": "Mi quinto móvil",
+    "tipo": "imagen",
+    "fecha": "2017",
+    "medio": "imagen",
+    "origen": "Iphone8.jpg",
+    "miniatura": "img/telefonos-moviles/iphone8-m.jpg",
+    "imagen": "img/telefonos-moviles/iphone8.jpg"
    }
   ]
  }
