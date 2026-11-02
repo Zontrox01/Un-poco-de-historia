@@ -1238,7 +1238,7 @@
    {
     "titulo": "iphone 8",
     "detalle": "Mi quinto móvil",
-    "tipo": "imagen",
+    "tipo": "Imagen",
     "fecha": "2017",
     "medio": "imagen",
     "origen": "Iphone8.jpg",
@@ -1254,6 +1254,242 @@
     "origen": "1366_2000.webp",
     "miniatura": "img/telefonos-moviles/1366-2000-m.jpg",
     "imagen": "img/telefonos-moviles/1366-2000.jpg"
+   }
+  ]
+ },
+ "mi-historia": {
+  "titulo": "Mi historia",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "La casilla de la estación",
+    "detalle": "La estación con la casilla al fondo",
+    "tipo": "Fotografía",
+    "fecha": "Década de los 70",
+    "medio": "imagen",
+    "origen": "001 - La casilla.jpg",
+    "miniatura": "img/mi-historia/001-la-casilla-m.jpg",
+    "imagen": "img/mi-historia/001-la-casilla.jpg"
+   },
+   {
+    "titulo": "La casilla de la estación",
+    "detalle": "Desde mitad de camino de la estación",
+    "tipo": "Fotografía",
+    "fecha": "Principio de los 80",
+    "medio": "imagen",
+    "origen": "002 - La casilla.jpg",
+    "miniatura": "img/mi-historia/002-la-casilla-m.jpg",
+    "imagen": "img/mi-historia/002-la-casilla.jpg"
+   },
+   {
+    "titulo": "La casilla de la estación",
+    "detalle": "La entrada de la casilla",
+    "tipo": "Fotografía",
+    "fecha": "Principio de los 80",
+    "medio": "imagen",
+    "origen": "003 - La casilla.jpg",
+    "miniatura": "img/mi-historia/003-la-casilla-m.jpg",
+    "imagen": "img/mi-historia/003-la-casilla.jpg"
+   },
+   {
+    "titulo": "La casilla de la estación",
+    "detalle": "La entrada de la casilla",
+    "tipo": "Fotografía",
+    "fecha": "Principio de los 80",
+    "medio": "imagen",
+    "origen": "004 - La casilla.jpg",
+    "miniatura": "img/mi-historia/004-la-casilla-m.jpg",
+    "imagen": "img/mi-historia/004-la-casilla.jpg"
+   },
+   {
+    "titulo": "La casilla de la estación",
+    "detalle": "Cerca de la casilla",
+    "tipo": "Fotografía",
+    "fecha": "Principio de los 80",
+    "medio": "imagen",
+    "origen": "005 - La casilla.jpg",
+    "miniatura": "img/mi-historia/005-la-casilla-m.jpg",
+    "imagen": "img/mi-historia/005-la-casilla.jpg"
+   },
+   {
+    "titulo": "La estación de Écija",
+    "detalle": "La estación un año antes de mi nacimiento",
+    "tipo": "Fotografía",
+    "fecha": "1964",
+    "medio": "imagen",
+    "origen": "001 - La estación.jpg",
+    "miniatura": "img/mi-historia/001-la-estacion-m.jpg",
+    "imagen": "img/mi-historia/001-la-estacion.jpg"
+   },
+   {
+    "titulo": "La estación de Écija",
+    "detalle": "Llegando a la estación",
+    "tipo": "Fotografía",
+    "fecha": "Principio de los 80",
+    "medio": "imagen",
+    "origen": "002 - La estación.jpg",
+    "miniatura": "img/mi-historia/002-la-estacion-m.jpg",
+    "imagen": "img/mi-historia/002-la-estacion.jpg"
+   },
+   {
+    "titulo": "Certificado de nacimiento",
+    "detalle": "Certificado solicitado para mi boda",
+    "tipo": "Imagen",
+    "fecha": "1988",
+    "medio": "imagen",
+    "origen": "002 - Certificado de nacimiento - 1965.jpg",
+    "miniatura": "img/mi-historia/002-certificado-de-nacimiento-1965-m.jpg",
+    "imagen": "img/mi-historia/002-certificado-de-nacimiento-1965.jpg"
+   },
+   {
+    "titulo": "Certificado de partida de bautismo",
+    "detalle": "Certificado solicitado para mi boda",
+    "tipo": "Imagen",
+    "fecha": "1988",
+    "medio": "imagen",
+    "origen": "003 - Certificado de bautismo - 1965.jpg",
+    "miniatura": "img/mi-historia/003-certificado-de-bautismo-1965-m.jpg",
+    "imagen": "img/mi-historia/003-certificado-de-bautismo-1965.jpg"
+   },
+   {
+    "titulo": "Diploma de natación",
+    "detalle": "Diploma de natación nivel Carpa",
+    "tipo": "Imagen",
+    "fecha": "1975",
+    "medio": "imagen",
+    "origen": "004 -Natación 1975.jpg",
+    "miniatura": "img/mi-historia/004-natacion-1975-m.jpg",
+    "imagen": "img/mi-historia/004-natacion-1975.jpg"
+   },
+   {
+    "titulo": "Diploma de esquí",
+    "detalle": "Nive C de la Escuela Española de Esquí",
+    "tipo": "Imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "007 - Curso de esquí en cerler - 1996.jpg",
+    "miniatura": "img/mi-historia/007-curso-de-esqui-en-cerler-1996-m.jpg",
+    "imagen": "img/mi-historia/007-curso-de-esqui-en-cerler-1996.jpg"
+   },
+   {
+    "titulo": "Diploma de esquí",
+    "detalle": "Nive C 3 de la Escuela Española de Esquí",
+    "tipo": "Imagen",
+    "fecha": "1997",
+    "medio": "imagen",
+    "origen": "008 - Curso de esquí en cerler - 1997.jpg",
+    "miniatura": "img/mi-historia/008-curso-de-esqui-en-cerler-1997-m.jpg",
+    "imagen": "img/mi-historia/008-curso-de-esqui-en-cerler-1997.jpg"
+   },
+   {
+    "titulo": "Diploma de esquí",
+    "detalle": "Nive C de la Escuela Española de Esquí",
+    "tipo": "Imagen",
+    "fecha": "1998",
+    "medio": "imagen",
+    "origen": "009 - Curso de esquí en cerler - 1998.jpg",
+    "miniatura": "img/mi-historia/009-curso-de-esqui-en-cerler-1998-m.jpg",
+    "imagen": "img/mi-historia/009-curso-de-esqui-en-cerler-1998.jpg"
+   },
+   {
+    "titulo": "Diploma de esquí",
+    "detalle": "Nive E de la Escuela Española de Esquí",
+    "tipo": "Imagen",
+    "fecha": "2000",
+    "medio": "imagen",
+    "origen": "010 - Curso de esquí en cerler - 2000.jpg",
+    "miniatura": "img/mi-historia/010-curso-de-esqui-en-cerler-2000-m.jpg",
+    "imagen": "img/mi-historia/010-curso-de-esqui-en-cerler-2000.jpg"
+   },
+   {
+    "titulo": "005   Especialista de la armada honorario   1981",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "",
+    "medio": "imagen",
+    "origen": "005 - Especialista de la armada honorario - 1981.jpg",
+    "miniatura": "img/mi-historia/005-especialista-de-la-armada-honorario-1981-m.jpg",
+    "imagen": "img/mi-historia/005-especialista-de-la-armada-honorario-1981.jpg"
+   },
+   {
+    "titulo": "006   Exención militar1984",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "2026",
+    "medio": "imagen",
+    "origen": "006 - Exención militar1984.jpg",
+    "miniatura": "img/mi-historia/006-exencion-militar1984-m.jpg",
+    "imagen": "img/mi-historia/006-exencion-militar1984.jpg"
+   },
+   {
+    "titulo": "Certificado cutre   1965",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "",
+    "medio": "imagen",
+    "origen": "Certificado cutre - 1965.jpg",
+    "miniatura": "img/mi-historia/certificado-cutre-1965-m.jpg",
+    "imagen": "img/mi-historia/certificado-cutre-1965.jpg"
+   },
+   {
+    "titulo": "hoja2",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "2026",
+    "medio": "imagen",
+    "origen": "hoja2.jpg",
+    "miniatura": "img/mi-historia/hoja2-m.jpg",
+    "imagen": "img/mi-historia/hoja2.jpg"
+   },
+   {
+    "titulo": "Hoja 01",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "",
+    "medio": "imagen",
+    "origen": "Hoja 01.jpg",
+    "miniatura": "img/mi-historia/hoja-01-m.jpg",
+    "imagen": "img/mi-historia/hoja-01.jpg"
+   },
+   {
+    "titulo": "Hoja 02",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "",
+    "medio": "imagen",
+    "origen": "Hoja 02.jpg",
+    "miniatura": "img/mi-historia/hoja-02-m.jpg",
+    "imagen": "img/mi-historia/hoja-02.jpg"
+   },
+   {
+    "titulo": "Hoja 03",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "",
+    "medio": "imagen",
+    "origen": "Hoja 03.jpg",
+    "miniatura": "img/mi-historia/hoja-03-m.jpg",
+    "imagen": "img/mi-historia/hoja-03.jpg"
+   },
+   {
+    "titulo": "Mi primo",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "2026",
+    "medio": "imagen",
+    "origen": "Mi primo.jpg",
+    "miniatura": "img/mi-historia/mi-primo-m.jpg",
+    "imagen": "img/mi-historia/mi-primo.jpg"
+   },
+   {
+    "titulo": "Sin título 1",
+    "detalle": "",
+    "tipo": "Fotografía",
+    "fecha": "2026",
+    "medio": "imagen",
+    "origen": "Sin título-1.jpg",
+    "miniatura": "img/mi-historia/sin-titulo-1-m.jpg",
+    "imagen": "img/mi-historia/sin-titulo-1.jpg"
    }
   ]
  }
