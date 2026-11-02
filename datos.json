@@ -2,8 +2,8 @@
  "anios": [
   {
    "anio": 1965,
-   "historia": "Gordon Moore publica la Ley de Moore, prediciendo la duplicación periódica de transistores en chips",
-   "personal": "Nací el 16 de marzo en Écija (Sevilla) en la casilla de la estación. Me bautizarón un mes después en la Explicar que pasó en el mundo ese día precio de cosas básicas. Mirar documento",
+   "historia": "Gordon Moore publica la [Ley de Moore](https://es.wikipedia.org/wiki/Ley_de_Moore), prediciendo la duplicación periódica de transistores en chips",
+   "personal": "Nazco el 16 de marzo en Écija (Sevilla) en la casilla de la estación. Me bautizarón un mes después en la iglesia de Santa María.\nEl SMI era de 1800 ptas. Los precios de los precios de consumos:\nTrigo: 6,66 ptas/Kg.\nArroz cáscara: 6,625 ptas/Kg.\nAceite de oliva: 31,00 ptas/Kg.\nRemolacha azucarera: 1.295,00 ptas/Tm.\nAlgodón bruto americano: 15,50 ptas/Kg.\nAlgodón bruto egipcio: 18,25 ptas/Kg.\nVino: 32,00 ptas/Hgdo.\nHuevos: 20,50 ptas/Docena.\nVacas: 38,00 ptas/Kg. canal.\nCordero: 37,00 ptas/Kg. canal.\nCerdo ibérico: 42,00 ptas/Kg. vivo.\nEl cosmonauta soviético Alexei Leonov realizó la primera caminata espacial de la historia durante la misión Vosjod 2.\nLa sonda Mariner 4 de la NASA realizó el primer sobrevuelo exitoso de Marte.",
    "laboral": "",
    "formacion": "",
    "informatica": "",
@@ -14,7 +14,7 @@
   },
   {
    "anio": 1966,
-   "historia": "Se aplican por primera vez conceptos de redes a lo que luego sería ARPANET .",
+   "historia": "Se aplican por primera vez conceptos de redes a lo que luego sería [ARPANET](https://es.wikipedia.org/wiki/ARPANET) .",
    "personal": "Cumplo 1 año.",
    "laboral": "",
    "formacion": "",
@@ -26,7 +26,7 @@
   },
   {
    "anio": 1967,
-   "historia": "IBM inventa el disquete (disco flexible) .",
+   "historia": "[IBM](https://es.wikipedia.org/wiki/IBM) inventa el [disquete](https://es.wikipedia.org/wiki/Disquete) (disco flexible) .",
    "personal": "Cumplo 2 años. \nNace mi hermano Santi",
    "laboral": "",
    "formacion": "",
@@ -38,7 +38,7 @@
   },
   {
    "anio": 1968,
-   "historia": "Robert Noyce y Gordon Moore fundan Intel. \nDouglas Engelbart realiza \"The Mother of All Demos\" (ratón, hipertexto, videoconferencia) .",
+   "historia": "Robert Noyce y Gordon Moore fundan [Intel](https://es.wikipedia.org/wiki/Intel). \nDouglas Engelbart realiza [\"The Mother of All Demos\"](https://es.wikipedia.org/wiki/The_Mother_of_All_Demos) (ratón, hipertexto, videoconferencia) .",
    "personal": "Cumplo 3 años.",
    "laboral": "",
    "formacion": "",
@@ -50,7 +50,7 @@
   },
   {
    "anio": 1969,
-   "historia": "Nace ARPANET (precursor de Internet). \nSe crea el sistema UNICS en Bell Labs, que luego sería Unix .",
+   "historia": "Nace [ARPANET](https://es.wikipedia.org/wiki/ARPANET) (precursor de Internet). \nSe crea el sistema UNICS en Bell Labs, que luego sería Unix .",
    "personal": "Cumplo 4 años.",
    "laboral": "",
    "formacion": "Aprendo a leer",
@@ -62,7 +62,7 @@
   },
   {
    "anio": 1970,
-   "historia": "UNIX es renombrado formalmente.\nEdgar F. Codd publica el modelo relacional de bases de datos .",
+   "historia": "[UNIX](https://es.wikipedia.org/wiki/Unix) es renombrado formalmente.\nEdgar F. Codd publica el [modelo relacional de bases de datos](https://es.wikipedia.org/wiki/Base_de_datos_relacional) .",
    "personal": "Cumplo 5 años.",
    "laboral": "",
    "formacion": "",
@@ -74,7 +74,7 @@
   },
   {
    "anio": 1971,
-   "historia": "Intel lanza el microprocesador 4004.",
+   "historia": "[Intel](https://es.wikipedia.org/wiki/Intel) lanza el microprocesador 4004.\nRay Tomlinson introduce el uso de [@](https://es.wikipedia.org/wiki/Arroba_%28s%C3%ADmbolo%29) para el correo electrónico en red .",
    "personal": "Cumplo 6 años.",
    "laboral": "",
    "formacion": "Empiezo la EGB",
@@ -86,7 +86,7 @@
   },
   {
    "anio": 1972,
-   "historia": "HP lanza la HP-35, primera calculadora científica de bolsillo. \nSe crea el lenguaje C. \nRay Tomlinson introduce el uso de @ para el correo electrónico en red .",
+   "historia": "[HP](https://es.wikipedia.org/wiki/Hewlett-Packard) lanza la [HP-35](https://es.wikipedia.org/wiki/HP-35), primera calculadora científica de bolsillo. \nSe crea el [lenguaje C](https://es.wikipedia.org/wiki/C_%28lenguaje_de_programaci%C3%B3n%29).",
    "personal": "Cumplo 7 años.",
    "laboral": "",
    "formacion": "",
@@ -98,8 +98,8 @@
   },
   {
    "anio": 1973,
-   "historia": "Se desarrolla Ethernet en Xerox PARC . \nXerox Alto introduce la informática personal con GUI.",
-   "personal": "Cumplo 8 años.",
+   "historia": "Se desarrolla [Ethernet](https://es.wikipedia.org/wiki/Ethernet) en Xerox PARC . \nXerox Alto introduce la informática personal con [GUI](https://es.wikipedia.org/wiki/Interfaz_gr%C3%A1fica_de_usuario).",
+   "personal": "Cumplo 8 años.\nHago la primera comunión",
    "laboral": "",
    "formacion": "",
    "informatica": "",
@@ -110,7 +110,7 @@
   },
   {
    "anio": 1974,
-   "historia": "Vint Cerf y Bob Kahn diseñan TCP/IP, la base técnica de Internet . \nSe publica el diseño del Intel 8080.",
+   "historia": "Vint Cerf y Bob Kahn diseñan [TCP/IP](https://es.wikipedia.org/wiki/Familia_de_protocolos_de_internet), la base técnica de Internet . \nSe publica el diseño del [Intel 8080](https://es.wikipedia.org/wiki/Intel_8080).",
    "personal": "Cumplo 9 años. \nNace mi hermana Begoña (mecanografía???)",
    "laboral": "",
    "formacion": "",
@@ -122,7 +122,7 @@
   },
   {
    "anio": 1975,
-   "historia": "Aparece el Altair 8800. Se funda Microsoft.",
+   "historia": "Paul Allen y Bill Gates fundan [Microsoft](https://es.wikipedia.org/wiki/Microsoft).\nAparece el [Altair 8800](https://es.wikipedia.org/wiki/Altair_8800).",
    "personal": "Cumplo 10 años. \nAprendo a nadar en la campaña \"Ningún niño sin saber nadar\".",
    "laboral": "",
    "formacion": "",
@@ -134,7 +134,7 @@
   },
   {
    "anio": 1976,
-   "historia": "Steve Jobs y Steve Wozniak fundan Apple.",
+   "historia": "Steve Jobs y Steve Wozniak fundan [Apple](https://es.wikipedia.org/wiki/Apple).",
    "personal": "Cumplo 11 años. Viajo a Madrid con Tauro?",
    "laboral": "",
    "formacion": "",
@@ -146,7 +146,7 @@
   },
   {
    "anio": 1977,
-   "historia": "Aparecen Apple II, Commodore PET y TRS-80. \nTI lanza la TI-59.",
+   "historia": "Aparecen [Apple II](https://es.wikipedia.org/wiki/Apple_II), [Commodore PET](https://es.wikipedia.org/wiki/Commodore_PET) y [TRS-80](https://es.wikipedia.org/wiki/TRS-80), Llevando la informática al hogar y a la oficina",
    "personal": "Cumplo 12 años\nNace mi hermano Moisés",
    "laboral": "",
    "formacion": "",
@@ -158,7 +158,7 @@
   },
   {
    "anio": 1978,
-   "historia": "Primeros sistemas comerciales de hojas de cálculo (VisiCalc en desarrollo). Se desarrolla Word, el procesador de textos de Microsoft .",
+   "historia": "Se desarrolla [Word](https://es.wikipedia.org/wiki/Microsoft_Word), el procesador de textos de [Microsoft ](https://es.wikipedia.org/wiki/Microsoft).",
    "personal": "Cumplo 13 años",
    "laboral": "",
    "formacion": "",
@@ -170,8 +170,8 @@
   },
   {
    "anio": 1979,
-   "historia": "HP lanza la HP-41C, calculadora programable alfanumérica con módulos enchufables. \nSe lanza Oracle Database, consolidando el modelo relacional comercial.",
-   "personal": "",
+   "historia": "[HP](https://es.wikipedia.org/wiki/Hewlett-Packard) lanza la [HP-41C](https://es.wikipedia.org/wiki/HP-41), calculadora programable alfanumérica con módulos enchufables. \nVisiCorp lanza la primera hoja de cálculo [Visicalc](https://es.wikipedia.org/wiki/VisiCalc)\nSe lanza [Oracle Database](https://es.wikipedia.org/wiki/Oracle_Database), consolidando el modelo relacional comercial.",
+   "personal": "Cumplo 14 años",
    "laboral": "",
    "formacion": "Empiezo mis estudios de formación profesional de química. \n1er. Curso de FP1. Institut Comte de Rius",
    "informatica": "",
@@ -182,7 +182,7 @@
   },
   {
    "anio": 1980,
-   "historia": "Se comercializa la HP-41CV (con más memoria que la HP-41C). \nIBM decide entrar en el mercado de los PC. \nSe popularizan las redes locales y estaciones UNIX.\nPhilips y Sony crean el CD.",
+   "historia": "Se comercializa la [HP-41CV](https://es.wikipedia.org/wiki/HP-41), con más memoria que la HP-41C. \n[IBM](https://es.wikipedia.org/wiki/IBM) decide entrar en el mercado de los PC. \nSe popularizan las [redes locales](https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_local) y estaciones [UNIX](https://es.wikipedia.org/wiki/Unix).\n[Philips](https://es.wikipedia.org/wiki/Philips) y [Sony](https://es.wikipedia.org/wiki/Sony) crean el [CD](https://es.wikipedia.org/wiki/Disco_compacto).",
    "personal": "Confirmación",
    "laboral": "Durante la temporada de algodón, en septiembre, recolecté algodón.",
    "formacion": "2º curso de FP1. Institut Comte de Rius",
@@ -194,7 +194,7 @@
   },
   {
    "anio": 1981,
-   "historia": "Sinclair lanza el ZX Spectrum (Reino Unido). \nIBM lanza el IBM PC con arquitectura abierta y MS-DOS, desatando la industria de clones.",
+   "historia": "Sinclair lanza el [ZX Spectrum](https://es.wikipedia.org/wiki/Sinclair_ZX_Spectrum) (Reino Unido). \n[IBM](https://es.wikipedia.org/wiki/IBM) lanza el [IBM PC](https://es.wikipedia.org/wiki/IBM_PC) con arquitectura abierta y [MS-DOS](https://es.wikipedia.org/wiki/MS-DOS), desatando la industria de clones.",
    "personal": "Especialista de la armada honorario",
    "laboral": "Durante la temporada de algodón, en septiembre, recolecté algodón.",
    "formacion": "2º curso de FP1. Institut Comte de Rius",
@@ -206,7 +206,7 @@
   },
   {
    "anio": 1982,
-   "historia": "Sale al mercado el Commodore 64 (agosto, EE. UU.). \nSe funda Compaq, clave en la expansión de los compatibles IBM.",
+   "historia": "Sale al mercado el [Commodore 64](https://es.wikipedia.org/wiki/Commodore_64). \nSe funda [Compaq](https://es.wikipedia.org/wiki/Compaq), clave en la expansión de los compatibles [IBM](https://es.wikipedia.org/wiki/IBM).",
    "personal": "",
    "laboral": "Durante la temporada de La Pera de San Juan, en junio, recolecté peras y ciruelas. \nDespués durante el verano trabajé en el mercado municipal de Salou como reponedor de fruta.",
    "formacion": "Obtengo el título: Operador de laboratorio (Técnico auxiliar).\n1er curso de FP2. Institut Comte de Rius",
@@ -218,7 +218,7 @@
   },
   {
    "anio": 1983,
-   "historia": "Se adopta TCP/IP en ARPANET, origen práctico de Internet. \nAparece Lotus 1-2-3. \nSe formaliza el DNS (Domain Name System)",
+   "historia": "Se adopta [TCP/IP](https://es.wikipedia.org/wiki/Familia_de_protocolos_de_internet) en [ARPANET](https://es.wikipedia.org/wiki/ARPANET), origen práctico de Internet. \nAparece [Lotus 1-2-3](https://es.wikipedia.org/wiki/Lotus_1-2-3). \nSe formaliza el [DNS](https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio) (Domain Name System)",
    "personal": "",
    "laboral": "Durante la temporada de La Pera de San Juan, en junio, recolecté peras y ciruelas. \nDespués durante el verano trabajé en el mercado municipal de Salou como reponedor de fruta.",
    "formacion": "1er curso de FP2. Institut Comte de Rius",
@@ -230,7 +230,7 @@
   },
   {
    "anio": 1984,
-   "historia": "Apple presenta el Macintosh que populariza la [interfaz gráfica (GUI)](https://es.wikipedia.org/wiki/Interfaz_gr%C3%A1fica_de_usuario) y el [ratón](https://es.wikipedia.org/wiki/Rat%C3%B3n_%28inform%C3%A1tica%29).",
+   "historia": "[Apple](https://es.wikipedia.org/wiki/Apple) presenta el [Macintosh](https://es.wikipedia.org/wiki/Macintosh) que populariza la [interfaz gráfica (GUI)](https://es.wikipedia.org/wiki/Interfaz_gr%C3%A1fica_de_usuario) y el [ratón](https://es.wikipedia.org/wiki/Rat%C3%B3n_%28inform%C3%A1tica%29).",
    "personal": "",
    "laboral": "Durante el  verano trabaje en Bayer para la empresa de montaje E.M.M.S.A.",
    "formacion": "2º curso FP2. Institut Comte de Rius",
