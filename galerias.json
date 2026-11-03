@@ -1402,10 +1402,10 @@
     "imagen": "img/mi-historia/010-curso-de-esqui-en-cerler-2000.jpg"
    },
    {
-    "titulo": "005   Especialista de la armada honorario   1981",
-    "detalle": "",
-    "tipo": "Fotografía",
-    "fecha": "",
+    "titulo": "Diploma de la armada",
+    "detalle": "Especialista de la Armada Honorario. Último año del aguila en el escudo.",
+    "tipo": "imagen",
+    "fecha": "1981",
     "medio": "imagen",
     "origen": "005 - Especialista de la armada honorario - 1981.jpg",
     "miniatura": "img/mi-historia/005-especialista-de-la-armada-honorario-1981-m.jpg",
@@ -1490,6 +1490,132 @@
     "origen": "Sin título-1.jpg",
     "miniatura": "img/mi-historia/sin-titulo-1-m.jpg",
     "imagen": "img/mi-historia/sin-titulo-1.jpg"
+   }
+  ]
+ },
+ "titulos": {
+  "titulo": "Títulos",
+  "descripcion": "",
+  "items": [
+   {
+    "titulo": "Graduado escolar",
+    "detalle": "En los colegios Torroja Miret y Sant Bernart Calbó",
+    "tipo": "imagen",
+    "fecha": "1979",
+    "medio": "imagen",
+    "origen": "001 - Graduadoescolar - 1979.jpg",
+    "miniatura": "img/titulos/001-graduadoescolar-1979-m.jpg",
+    "imagen": "img/titulos/001-graduadoescolar-1979.jpg"
+   },
+   {
+    "titulo": "Técnico auxiliar de laboratorio",
+    "detalle": "En el institut comte de Rius",
+    "tipo": "imagen",
+    "fecha": "1981",
+    "medio": "imagen",
+    "origen": "002 - Tecnico auxiliar - 1981.jpg",
+    "miniatura": "img/titulos/002-tecnico-auxiliar-1981-m.jpg",
+    "imagen": "img/titulos/002-tecnico-auxiliar-1981.jpg"
+   },
+   {
+    "titulo": "Reciclaje de Planta",
+    "detalle": "Curso impartido en Bayer por profesores externos",
+    "tipo": "imagen",
+    "fecha": "1995",
+    "medio": "imagen",
+    "origen": "003 - Reciclaje de planta - 1995.jpg",
+    "miniatura": "img/titulos/003-reciclaje-de-planta-1995-m.jpg",
+    "imagen": "img/titulos/003-reciclaje-de-planta-1995.jpg"
+   },
+   {
+    "titulo": "Reciclaje de Autocad",
+    "detalle": "En el institut Gaudí de la Construcció",
+    "tipo": "imagen",
+    "fecha": "1996",
+    "medio": "imagen",
+    "origen": "004 - Reciclaje de autocad - 1996.jpg",
+    "miniatura": "img/titulos/004-reciclaje-de-autocad-1996-m.jpg",
+    "imagen": "img/titulos/004-reciclaje-de-autocad-1996.jpg"
+   },
+   {
+    "titulo": "Diploma de Prevención de Riesgos laborales",
+    "detalle": "Realizado en Bayer",
+    "tipo": "imagen",
+    "fecha": "2004",
+    "medio": "imagen",
+    "origen": "005 - Diploma PRL - 2004.jpg",
+    "miniatura": "img/titulos/005-diploma-prl-2004-m.jpg",
+    "imagen": "img/titulos/005-diploma-prl-2004.jpg"
+   },
+   {
+    "titulo": "Certificado de Prácticas contra incendios",
+    "detalle": "En el IES comte de Rius",
+    "tipo": "imagen",
+    "fecha": "2011",
+    "medio": "imagen",
+    "origen": "006 - Certificado Practicas contraincendios - 2011.jpg",
+    "miniatura": "img/titulos/006-certificado-practicas-contraincendios-2011-m.jpg",
+    "imagen": "img/titulos/006-certificado-practicas-contraincendios-2011.jpg"
+   },
+   {
+    "titulo": "Diploma al mejor proyecto del ciclo",
+    "detalle": "En el IES comte de Rius",
+    "tipo": "imagen",
+    "fecha": "2012",
+    "medio": "imagen",
+    "origen": "007 - Diploma al mejor proyecto - 2012.jpg",
+    "miniatura": "img/titulos/007-diploma-al-mejor-proyecto-2012-m.jpg",
+    "imagen": "img/titulos/007-diploma-al-mejor-proyecto-2012.jpg"
+   },
+   {
+    "titulo": "Título de Técnico Superior de Química Industrial",
+    "detalle": "En el IES comte de Rius",
+    "tipo": "imagen",
+    "fecha": "2012",
+    "medio": "imagen",
+    "origen": "008 -Tecnico superior quimica industrial -  2012.jpeg",
+    "miniatura": "img/titulos/008-tecnico-superior-quimica-industrial-2012-m.jpg",
+    "imagen": "img/titulos/008-tecnico-superior-quimica-industrial-2012.jpg"
+   },
+   {
+    "titulo": "Diploma al mejor trabajo de anteproyecto",
+    "detalle": "En la Universidad Rovira i Virgili",
+    "tipo": "imagen",
+    "fecha": "2014",
+    "medio": "imagen",
+    "origen": "009 - Diploma al mejor proyecto - Premi Messer - 2014.jpg",
+    "miniatura": "img/titulos/009-diploma-al-mejor-proyecto-premi-messer-2014-m.jpg",
+    "imagen": "img/titulos/009-diploma-al-mejor-proyecto-premi-messer-2014.jpg"
+   },
+   {
+    "titulo": "Diploma en el manejo de Carretillas elevadoras",
+    "detalle": "Por la Fundación Laboral de la construcción a través de Covestro",
+    "tipo": "imagen",
+    "fecha": "2018",
+    "medio": "imagen",
+    "origen": "010 - Diploma de carretillero - 2018.jpg",
+    "miniatura": "img/titulos/010-diploma-de-carretillero-2018-m.jpg",
+    "imagen": "img/titulos/010-diploma-de-carretillero-2018.jpg"
+   },
+   {
+    "titulo": "Diploma en el manejo de Palas de Carga",
+    "detalle": "Por la Fundación Laboral de la construcción a través de Covestro",
+    "tipo": "imagen",
+    "fecha": "2018",
+    "medio": "imagen",
+    "origen": "011 - Diploma de operador de pala de carga - 2018.jpg",
+    "miniatura": "img/titulos/011-diploma-de-operador-de-pala-de-carga-2018-m.jpg",
+    "imagen": "img/titulos/011-diploma-de-operador-de-pala-de-carga-2018.jpg"
+   },
+   {
+    "titulo": "Título de Grado de Ingeniería Química",
+    "detalle": "En la Universidad Rovira i Virgili",
+    "tipo": "imagen",
+    "fecha": "2020",
+    "medio": "imagen",
+    "origen": "012 - Graduado Ingenieria quimica - 2020.jpeg",
+    "miniatura": "img/titulos/012-graduado-ingenieria-quimica-2020-m.jpg",
+    "imagen": "img/titulos/012-graduado-ingenieria-quimica-2020.jpg"
    }
   ]
  }
