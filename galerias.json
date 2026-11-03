@@ -1414,12 +1414,22 @@
    {
     "titulo": "Notificación de exención",
     "detalle": "Notificación de la Junta Municipal de Reclutamiento.",
-    "tipo": "Fotografía",
-    "fecha": "2026",
+    "tipo": "imagen",
+    "fecha": "1984",
     "medio": "imagen",
     "origen": "006 - Exención militar1984.jpg",
     "miniatura": "img/mi-historia/006-exencion-militar1984-m.jpg",
     "imagen": "img/mi-historia/006-exencion-militar1984.jpg"
+   },
+   {
+    "titulo": "En el Laboratorio",
+    "detalle": "En la Universidad Nacional de Educación a Distancia en Tortosa",
+    "tipo": "Fotografía",
+    "fecha": "2006",
+    "medio": "imagen",
+    "origen": "011 - Laboratorio UNED.jpg",
+    "miniatura": "img/mi-historia/011-laboratorio-uned-m.jpg",
+    "imagen": "img/mi-historia/011-laboratorio-uned.jpg"
    },
    {
     "titulo": "Certificado cutre   1965",
